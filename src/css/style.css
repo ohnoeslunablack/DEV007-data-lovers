@@ -1,0 +1,260 @@
+/*#ffcb01 amarillo
+ #085099  azul*/
+/*full document*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body*/
+@media only screen and (max-width: 1680px) {
+
+    body {
+        min-height: 100vh;
+        background: none;
+        width: 100%;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        cursor: url(../css/img/cursor30.png), pointer;
+
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../css/img/bg.jpg);
+        background-size: 100%;
+        background-attachment: fixed;
+        filter: sepia(1) opacity(80);
+        z-index: -1;
+
+    }
+
+    /*header*/
+    header {
+        background-color: #085099;
+        padding: 10px;
+        position: sticky;
+        height: 70px;
+    }
+
+    nav ul {
+        font-weight: bolder;
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .navbtn {
+        width: 180px;
+        padding: 5px;
+        text-align: center;
+        text-size-adjust: inherit;
+        text-decoration: none;
+        -webkit-text-stroke: .5px yellow;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+        border-color: yellow;
+        color: red;
+        box-shadow: 0 0 40px 40px yellow inset, 0 0 0 0 yellow;
+        transition: all 150ms ease-in-out;
+    }
+
+    .ibefore {
+        max-height: 30px;
+        position: relative;
+    }
+
+    .navbtn:hover {
+        box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 4px yellow;
+    }
+
+    /*contenido*/
+
+    .contenedor {
+        display:block;
+        width: 450px;
+        height: 650px;
+        background-image: url("../css/img/pokedex.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .pokecont {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+        position: relative;
+        display: block;
+    }
+
+    /*busqueda*/
+    .pantalla {
+        background: rgb(206, 202, 202);
+        border-radius: 9px;
+        border: none;
+        padding-top: 18px;
+        padding-left: 2px;
+        border: solid 2px black;
+        font-size: 12px;
+        color: black;
+        width: 55%;
+        height: 170px;
+        transition: all 1s ease;
+        right: 0;
+        font-weight: 500;
+        position: absolute;
+        left: 100px;
+        display: inline;
+        margin-top: 44%;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Orbitron', sans-serif;
+        font-size: large;
+    }
+
+    img.logo {
+        position: absolute;
+        left: 120px;
+        top: 280px;
+        display: inline;
+        height: 60px;
+    }
+
+    .search {
+        width: 240px;
+        height: 30px;
+        text-align: center;
+        position: relative;
+        display: inline-flex;
+        margin-top: 108%;
+        margin-left: 26%;
+    }
+
+    .search input {
+        background: olivedrab;
+        border-radius: 9px;
+        border: none;
+        padding-top: 18px;
+        padding-left: 8px;
+        border: solid 2px black;
+        font-size: 12px;
+        color: #fff;
+        width: 60%;
+        transition: all 1s ease;
+        right: 0;
+        font-weight: 500;
+        height: 60px;
+    }
+
+    .search input::placeholder {
+        color: black;
+        font-weight: bold;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    .searchPokemon input:focus {
+        outline: none;
+        border-color: #fff;
+    }
+
+    button.button-search {
+        background: transparent;
+        cursor: pointer;
+        width: 30px;
+        padding-top: 20px;
+        margin-left: 0px;
+        transition: 0.6s;
+        border: none;
+        display: inline-flex;
+    }
+
+    button.button-search img {
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    button.button-search:focus {
+        outline: none;
+    }
+
+    .button-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    button.button-search:active {
+        transform: scale(1.1);
+    }
+
+    /* .search {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        height: 200px;
+        width: 500px;
+        background-color: #f00; 
+        z-index: -1;
+      }*/
+
+    /*footer*/
+    .mainfooter{
+        max-width:max-content;
+        display: inline-flex;
+        margin-left: 0px;
+        
+    }
+
+
+    footer {
+        background-color: #085099;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+        bottom: 0;
+        position: absolute;
+        display:block;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: none;
+        color: yellow;
+    }
+}

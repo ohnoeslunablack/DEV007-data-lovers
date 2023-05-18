@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <div id="prueba"></div>
-    <div id="prueba2"></div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Lovers</title>
+  <link rel="shortcut icon" href="css/img/pokeicon.png">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://www.poketvlatino.com/" target="_blank" id="navbtn1" class="navbtn"><img
+              src="css/img/pokestop_before.png" class="ibefore" alt="stopb">Serie</a></li>
+        <li><a href="https://vandal.elespanol.com/guias/guia-pokemon-go" target="_blank" id="navbtn2"
+            class="navbtn"><img src="css/img/pokestop_before.png" class="ibefore" alt="stopb">Tips
+            de Juego</a></li>
+        <li><a href="https://comunidadflyoficial.com/" target="_blank" id="navbtn3" class="navbtn"><img
+              src="css/img/pokestop_before.png" class="ibefore" alt="stopb">Comunidad</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contenedor">
+    <div class="pokecont">
+      <div class="pantalla" id="pantalla">BIENVENIDO MAESTRO POKEMON!</div>
+      <img id="logo" class="logo" src="css/img/logomon.png" alt="logo" />
+      <div class="navfilter">
+        <nav class="filters">
+          <!--<select id="tipo" class="btnControles">
+            <option value="all">por Tipo</option>
+            <option value="Water">Agua</option>
+            <option value="Bug">Bicho</option>
+            <option value="Dragon">Dragón</option>
+            <option value="Electric">Eléctrico</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Fire">Fuego</option>
+            <option value="Ice">Hielo</option>
+            <option value="Fighting">Lucha</option>
+            <option value="Normal">Normal</option>
+            <option value="Grass">Planta</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Rock">Roca</option>
+            <option value="Ground">Tierra</option>
+            <option value="Poison">Veneno</option>
+            <option value="Flying">Volador</option>
+          </select>
+          <select id="habilidad" class="btnControles2">
+            <option value="all">por Habilidad</option>
+            <option value="Water">Agua</option>
+        </nav>
+      </div>-->
+          <div class="search" id="search">
+            <input type="text" placeholder="busca tu Pokemon" />
+            <button class="button-search">
+              <div class="button-content">
+                <img src="css/img/lupa.png" alt="search" />
+              </div>
+            </button>
+          </div>
+
+      </div>
+      <!-- Contenido aquí -->
+      <div id="root"></div>
+    </div>
     <script src="main.js" type="module"></script>
-  </body>
+    <script src="efects.js" type="module"></script>
+
+</body>
+<div class="mainfooter">
+<footer>
+  <p>Elaborado por <a href="https://github.com/MeliDlc" target="_blank">Melissa de la Cruz</a> y <a
+      href="https://github.com/ohnoeslunablack" target="_blank">Norma Espíndola</a> DEV007 <a
+      href="https://www.laboratoria.la/" target="_blank"> LABORATORIA </a> 2023.</p>
+</footer>
+</div>
+
 </html>
