@@ -10,7 +10,56 @@
 }
 
 /*body*/
-@media only screen and (max-width: 1680px) {
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .navbtn {
+      width: 120px;
+    }
+  
+    .logo {
+      width: 150px;
+    }
+  
+    .search {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Estilos para tablets y pantallas pequeñas */
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .navbtn {
+      width: 150px;
+    }
+  
+    .logo {
+      width: 200px;
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .navbtn {
+      width: 180px;
+    }
+  
+    .logo {
+      width: 250px;
+    }
+  }
+  
 
     body {
         min-height: 100vh;
@@ -142,7 +191,44 @@
         top: 280px;
         display: inline;
         height: 60px;
+        width: auto;
     }
+    
+    .btnControles{
+        width: 50vw;
+        max-width: 200px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        background: red;
+        border: 1px solid #000000;
+        border-radius: 15px; 
+        box-shadow: 2px 2px 5px rgb(63, 35, 35);
+      }
+      
+      .btnControles:hover {
+        background-color: red;
+        opacity: 0.6;
+      }
+      
+      .btnControles2{
+        width: 50vw;
+        max-width: 200px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        background: blue;
+        border: 1px solid #000000;
+        border-radius: 15px; 
+        box-shadow: 2px 2px 5px rgb(63, 35, 35);
+      }
+      
+      .btnControles2:hover {
+        background-color: blue;
+        opacity: 0.6;
+      }
 
     .search {
         width: 240px;
@@ -227,8 +313,8 @@
 
     /*footer*/
     .mainfooter{
-        max-width:max-content;
-        display: inline-flex;
+        width: 100%;
+        display:block;
         margin-left: 0px;
         
     }
@@ -244,7 +330,7 @@
         margin-top: 50px;
         margin-left: 0px;
         bottom: 0;
-        position: absolute;
+        position:static;
         display:block;
     }
 
@@ -257,4 +343,3 @@
         text-decoration: none;
         color: yellow;
     }
-}
