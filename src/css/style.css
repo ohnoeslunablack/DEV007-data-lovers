@@ -4,342 +4,279 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*body*/
-@media screen and (max-width: 767px) {
-    body {
-      font-size: 14px;
-    }
-  
-    .navbtn {
-      width: 120px;
-    }
-  
-    .logo {
-      width: 150px;
-    }
-  
-    .search {
-      margin-bottom: 10px;
-    }
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
   }
-  
-  /* Estilos para tablets y pantallas pequeñas */
-  
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-      font-size: 16px;
-    }
-  
-    .navbtn {
-      width: 150px;
-    }
-  
-    .logo {
-      width: 200px;
-    }
+
+  .navbtn {
+    width: 52px;
   }
-  
-  /* Estilos para pantallas grandes */
-  
-  @media screen and (min-width: 1024px) {
-    body {
-      font-size: 18px;
-    }
-  
-    .navbtn {
-      width: 180px;
-    }
-  
-    .logo {
-      width: 250px;
-    }
+
+  .logo {
+    width: 64px;
   }
-  
+ 
+  .inicio {
+    margin-bottom: 20px; /* Agrega un margen inferior para separar del footer */
+  }
+}
 
-    body {
-        min-height: 100vh;
-        background: none;
-        width: 100%;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 16px;
-        margin: 0;
-        padding: 0;
-        cursor: url(../css/img/cursor30.png), pointer;
+/* Estilos para tablets y pantallas pequeñas */
 
-    }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
 
-    body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: url(../css/img/bg.jpg);
-        background-size: 100%;
-        background-attachment: fixed;
-        filter: sepia(1) opacity(80);
-        z-index: -1;
+  .navbtn {
+    width: 150px;
+  }
 
-    }
+  .logo {
+    width: 200px;
+  }
+}
 
-    /*header*/
-    header {
-        background-color: #085099;
-        padding: 10px;
-        position: sticky;
-        height: 70px;
-    }
+/* Estilos para pantallas grandes */
 
-    nav ul {
-        font-weight: bolder;
-        list-style-type: none;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
 
-    nav li {
-        display: inline-block;
-        margin: 0 10px;
-    }
+  .navbtn {
+    width: 180px;
+  }
 
-    .navbtn {
-        width: 180px;
-        padding: 5px;
-        text-align: center;
-        text-size-adjust: inherit;
-        text-decoration: none;
-        -webkit-text-stroke: .5px yellow;
-        display: inline-block;
-        font-size: 14px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 20px;
-        border-color: yellow;
-        color: red;
-        box-shadow: 0 0 40px 40px yellow inset, 0 0 0 0 yellow;
-        transition: all 150ms ease-in-out;
-    }
-
-    .ibefore {
-        max-height: 30px;
-        position: relative;
-    }
-
-    .navbtn:hover {
-        box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 4px yellow;
-    }
-
-    /*contenido*/
-
-    .contenedor {
-        display:block;
-        width: 450px;
-        height: 650px;
-        background-image: url("../css/img/pokedex.png");
-        background-size:contain;
-        background-repeat: no-repeat;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    .pokecont {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 50px;
-        position: relative;
-        display: block;
-    }
-
-    /*busqueda*/
-    .pantalla {
-        background: rgb(206, 202, 202);
-        border-radius: 9px;
-        border: none;
-        padding-top: 18px;
-        padding-left: 2px;
-        border: solid 2px black;
-        font-size: 12px;
-        color: black;
-        width: 55%;
-        height: 170px;
-        transition: all 1s ease;
-        right: 0;
-        font-weight: 500;
-        position: absolute;
-        left: 100px;
-        display: inline;
-        margin-top: 44%;
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Orbitron', sans-serif;
-        font-size: large;
-    }
-
-    img.logo {
-        position: absolute;
-        left: 120px;
-        top: 280px;
-        display: inline;
-        height: 60px;
-        width: auto;
-    }
-    
-    .btnControles{
-        width: 50vw;
-        max-width: 200px;
-        margin: 10px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        background: red;
-        border: 1px solid #000000;
-        border-radius: 15px; 
-        box-shadow: 2px 2px 5px rgb(63, 35, 35);
-      }
-      
-      .btnControles:hover {
-        background-color: red;
-        opacity: 0.6;
-      }
-      
-      .btnControles2{
-        width: 50vw;
-        max-width: 200px;
-        margin: 10px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        background: blue;
-        border: 1px solid #000000;
-        border-radius: 15px; 
-        box-shadow: 2px 2px 5px rgb(63, 35, 35);
-      }
-      
-      .btnControles2:hover {
-        background-color: blue;
-        opacity: 0.6;
-      }
-
-    .search {
-        width: 240px;
-        height: 30px;
-        text-align: center;
-        position: relative;
-        display: inline-flex;
-        margin-top: 108%;
-        margin-left: 26%;
-    }
-
-    .search input {
-        background: olivedrab;
-        border-radius: 9px;
-        border: none;
-        padding-top: 18px;
-        padding-left: 8px;
-        border: solid 2px black;
-        font-size: 12px;
-        color: #fff;
-        width: 60%;
-        transition: all 1s ease;
-        right: 0;
-        font-weight: 500;
-        height: 60px;
-    }
-
-    .search input::placeholder {
-        color: black;
-        font-weight: bold;
-        font-family: 'Orbitron', sans-serif;
-    }
-
-    .searchPokemon input:focus {
-        outline: none;
-        border-color: #fff;
-    }
-
-    button.button-search {
-        background: transparent;
-        cursor: pointer;
-        width: 30px;
-        padding-top: 20px;
-        margin-left: 0px;
-        transition: 0.6s;
-        border: none;
-        display: inline-flex;
-    }
-
-    button.button-search img {
-        background: transparent;
-        width: 30px;
-        height: 30px;
-        margin: 0;
-        padding: 0;
-
-    }
-
-    button.button-search:focus {
-        outline: none;
-    }
-
-    .button-content {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    button.button-search:active {
-        transform: scale(1.1);
-    }
-
-    /* .search {
-        position:relative;
-        bottom: 0;
-        left: 0;
-        height: 200px;
-        width: 500px;
-        background-color: #f00; 
-        z-index: -1;
-      }*/
-
-    /*footer*/
-    .mainfooter{
-        width: 100%;
-        display:block;
-        margin-left: 0px;
-        
-    }
+  .logo {
+    width: 250px;
+  }
+}
 
 
-    footer {
-        background-color: #085099;
-        padding: 10px;
-        color: white;
-        text-align: center;
-        height: 50px;
-        width: 100%;
-        margin-top: 50px;
-        margin-left: 0px;
-        bottom: 0;
-        position:static;
-        display:block;
-    }
+body {
+  min-height: 100vh;
+  background: none;
+  width: 100%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  cursor: url(../css/img/cursor30.png), pointer;
 
-    footer a {
-        color: white;
-        text-decoration: none;
-    }
+}
 
-    footer a:hover {
-        text-decoration: none;
-        color: yellow;
-    }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../css/img/bg.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  filter: sepia(1) opacity(80);
+  z-index: -1;
+
+}
+
+/*header*/
+header {
+  background-color: #085099;
+  padding: 10px;
+  position: static;
+  min-height: 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+.navbtn {
+  width: 180px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-text-stroke: .5px yellow;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  border-color: yellow;
+  color: red;
+  box-shadow: 0 0 40px 40px yellow inset, 0 0 0 0 yellow;
+  transition: all 150ms ease-in-out;
+}
+
+.ibefore {
+  max-height: 30px;
+  position: relative;
+}
+
+.navbtn:hover {
+  box-shadow: 0 0 10px 0 yellow inset, 0 0 10px 4px yellow;
+}
+
+/*contenido*/
+.pokedata {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-image: url("../css/img/logomon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+}
+
+
+.contenedor {
+  display: flex;
+  max-width: 300px;
+  height: 450px;
+  background-image: url("../css/img/pokedex.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  min-height: calc(100vh - 100px); /* Restamos la altura del footer */
+  padding-bottom: 100px; /* Agregamos un espacio inferior para el footer */
+}
+
+
+.pokecont {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  display: block;
+}
+
+/*busqueda*/
+.pantalla {
+  background: white;
+  border-radius: 9px;
+  border: none;
+  padding: 18px 2px;
+  border: solid 2px black;
+  font-size: 12px;
+  color: black;
+  width: 100%;
+  max-width: 55%;
+  height: 110px;
+  transition: all 1s ease;
+  right: 0;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 44%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pantalla img{
+  margin-top: 10px;
+  align-self: center;
+}
+
+.inicio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -75px; /* Ajusta el margen superior según tu preferencia */
+}
+
+.inicio button {
+  color: red;
+  border-color: red;
+  font-size: 24px; /* Ajustar el tamaño de fuente según tu preferencia */
+  padding: 12px 24px; /* Ajustar el espaciado interno del botón según tu preferencia */
+}
+
+.inicio button:before,
+.inicio button:after {
+  border-color: red;
+}
+
+.inicio button:hover:before,
+.inicio button:hover:after {
+  border-color: red;
+}
+
+.inicio button:hover {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+}
+
+/*footer*/
+.mainfooter {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position:static; /* Cambiamos la posición a fija */
+  bottom: 0;
+}
+
+footer {
+  background-color: #085099;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  min-height: 50px;
+  width: 100%;
+  margin-top: 50px;
+  bottom: 0;
+  position: static;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: yellow;
+}
