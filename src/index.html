@@ -23,13 +23,37 @@
       </ul>
     </nav>
   </header>
+  <div id="pokedata" class="pokedata">
+  </div>
   <div class="contenedor">
     <div class="pokecont">
-      <div class="pantalla" id="pantalla">BIENVENIDO MAESTRO POKEMON!</div>
-      <img id="logo" class="logo" src="css/img/logomon.png" alt="logo" />
-      <div class="navfilter">
+      <div class="pantalla" id="pantalla" >BIENVENIDO MAESTRO POKEMON!<img src="../src/css/img/icons8-pokemon.gif" class="pika"/></div>
+    </div>
+
+    <div id="root"></div>
+  </div>
+  <div id="inicio" class="inicio rojo">
+    <button class="comenzar" id="comenzar" onclick="window.location.href='index2.html';">INICIA!!</button>
+  <!--"window.location.href='index2.html';"-->
+  </div>
+  <div class="pantalla-pokemon" id="pantalla-pokemon">
+  </div>
+  <script src="main.js" type="module"></script>
+  <script src="efects.js" type="module"></script>
+
+</body>
+<div class="mainfooter">
+  <footer>
+    <p>Elaborado por <a href="https://github.com/MeliDlc" target="_blank">Melissa de la Cruz</a> y <a
+        href="https://github.com/ohnoeslunablack" target="_blank">Norma Espíndola</a> DEV007 <a
+        href="https://www.laboratoria.la/" target="_blank"> LABORATORIA </a> 2023.</p>
+  </footer>
+</div>
+
+</html>
+<!--<div class="navfilter">
         <nav class="filters">
-          <!--<select id="tipo" class="btnControles">
+          <select id="tipo" class="btnControles">
             <option value="all">por Tipo</option>
             <option value="Water">Agua</option>
             <option value="Bug">Bicho</option>
@@ -52,29 +76,3 @@
             <option value="Water">Agua</option>
         </nav>
       </div>-->
-          <div class="search" id="search">
-            <input type="text" placeholder="busca tu Pokemon" />
-            <button class="button-search">
-              <div class="button-content">
-                <img src="css/img/lupa.png" alt="search" />
-              </div>
-            </button>
-          </div>
-
-      </div>
-      <!-- Contenido aquí -->
-      <div id="root"></div>
-    </div>
-    <script src="main.js" type="module"></script>
-    <script src="efects.js" type="module"></script>
-
-</body>
-<div class="mainfooter">
-<footer>
-  <p>Elaborado por <a href="https://github.com/MeliDlc" target="_blank">Melissa de la Cruz</a> y <a
-      href="https://github.com/ohnoeslunablack" target="_blank">Norma Espíndola</a> DEV007 <a
-      href="https://www.laboratoria.la/" target="_blank"> LABORATORIA </a> 2023.</p>
-</footer>
-</div>
-
-</html>
