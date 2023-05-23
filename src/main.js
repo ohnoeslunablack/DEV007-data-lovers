@@ -1,20 +1,38 @@
 import data from './data/pokemon/pokemon.js';
 
-console.log(data);
+const pokemonData = data.pokemon;
 
-const pokemon = data.pokemon;
+function mostrarPokemon(pokemonList) {
+  const container = document.getElementById('contenido');
+  container.innerHTML = '';
 
-function mostrarPokemon (){
-    const container = document.getElementById('contenido')
+  pokemonList.forEach((pokemon) => {
+    const pokemonCardDiv = document.createElement('div');
+    pokemonCardDiv.classList.add('pokemonCard'); // Agregar la clase pokemonCard
 
-    pokemon.forEach(i =>{
-        container.innerHTML += `<div class= datosPokemones>
-                           <p>Name: ${i.name}</p>
-                           <p>Num: ${i.num}</p>
-                           <p>Generation: ${i.generation}</p>
-                           <p>Type: ${i.type}</p>
-                           </div>` 
-    })
+    // Crear la estructura HTML de la tarjeta de información
+    pokemonCardDiv.innerHTML = `
+      <p class="pokemonName">${pokemon.name}</p>
+      <p class="pokemonNum">${pokemon.num}</p>
+      <p class="pokemonGeneration">Generación: ${pokemon.generation}</p>
+      <p class="pokemonType">Tipo: ${pokemon.type}</p>
+    `;
+
+    container.appendChild(pokemonCardDiv);
+  });
 }
 
-const botonLlamarPokemones = document.getElementById('button-search')
+
+function buscarPokemon() {
+  const searchInput = document.querySelector('.searchPokemon');
+  const searchTerm = searchInput.value.toLowerCase();
+
+  const filteredPokemon = pokemonData.filter((pokemon) =>
+    pokemon.name.toLowerCase().includes(searchTerm)
+  );
+
+  mostrarPokemon(filteredPokemon);
+}
+
+const searchButton = document.getElementById('button-search');
+searchButton.addEventListener('click', buscarPokemon);
