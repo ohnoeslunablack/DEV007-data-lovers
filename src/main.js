@@ -17,6 +17,9 @@ function mostrarPokemon(pokemonList) {
       <p class="pokemonGeneration">Generación: ${pokemon.generation.num} (${pokemon.generation.name})</p>
       <img src="${pokemon.img}">
       <p class="pokemonType">Tipo: ${pokemon.type}</p>
+      <p class="pokemonStats">Estadisticas: Ataque ${pokemon.stats.attack} Defensa ${pokemon.stats.defense} Resistencia
+       ${pokemon.stats.stamina} HP ${pokemon.stats.hp} </p>
+
     `;
 
     container.appendChild(pokemonCardDiv);

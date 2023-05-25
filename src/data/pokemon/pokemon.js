@@ -23,11 +23,11 @@ export default {
     },
     "spawn-chance": "0.69",
     "stats": {
-      "base-attack": "118",
-      "base-defense": "111",
-      "base-stamina": "128",
-      "max-cp": "1115",
-      "max-hp": "113"
+      "attack": "118",
+      "defense": "111",
+      "stamina": "128",
+      "cp": "1115",
+      "hp": "113"
     },
     "resistant": [
       "water",
@@ -121,11 +121,11 @@ export default {
     },
     "spawn-chance": "0.042",
     "stats": {
-      "base-attack": "151",
-      "base-defense": "143",
-      "base-stamina": "155",
-      "max-cp": "1699",
-      "max-hp": "134"
+      "attack": "151",
+      "defense": "143",
+      "stamina": "155",
+      "cp": "1699",
+      "hp": "134"
     },
     "resistant": [
       "water",
@@ -219,11 +219,11 @@ export default {
     },
     "spawn-chance": "0.017",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "189",
-      "base-stamina": "190",
-      "max-cp": "2720",
-      "max-hp": "162"
+      "attack": "198",
+      "defense": "189",
+      "stamina": "190",
+      "cp": "2720",
+      "hp": "162"
     },
     "resistant": [
       "water",
@@ -316,11 +316,11 @@ export default {
     },
     "spawn-chance": "0.253",
     "stats": {
-      "base-attack": "116",
-      "base-defense": "93",
-      "base-stamina": "118",
-      "max-cp": "980",
-      "max-hp": "105"
+      "attack": "116",
+      "defense": "93",
+      "stamina": "118",
+      "cp": "980",
+      "hp": "105"
     },
     "resistant": [
       "fire",
@@ -412,11 +412,11 @@ export default {
     },
     "spawn-chance": "0.012",
     "stats": {
-      "base-attack": "158",
-      "base-defense": "126",
-      "base-stamina": "151",
-      "max-cp": "1653",
-      "max-hp": "131"
+      "attack": "158",
+      "defense": "126",
+      "stamina": "151",
+      "cp": "1653",
+      "hp": "131"
     },
     "resistant": [
       "fire",
@@ -516,11 +516,11 @@ export default {
     },
     "spawn-chance": "0.0031",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "173",
-      "base-stamina": "186",
-      "max-cp": "2889",
-      "max-hp": "158"
+      "attack": "223",
+      "defense": "173",
+      "stamina": "186",
+      "cp": "2889",
+      "hp": "158"
     },
     "resistant": [
       "fire",
@@ -633,11 +633,11 @@ export default {
     },
     "spawn-chance": "0.58",
     "stats": {
-      "base-attack": "94",
-      "base-defense": "121",
-      "base-stamina": "127",
-      "max-cp": "946",
-      "max-hp": "112"
+      "attack": "94",
+      "defense": "121",
+      "stamina": "127",
+      "cp": "946",
+      "hp": "112"
     },
     "resistant": [
       "fire",
@@ -727,11 +727,11 @@ export default {
     },
     "spawn-chance": "0.034",
     "stats": {
-      "base-attack": "126",
-      "base-defense": "155",
-      "base-stamina": "153",
-      "max-cp": "1488",
-      "max-hp": "132"
+      "attack": "126",
+      "defense": "155",
+      "stamina": "153",
+      "cp": "1488",
+      "hp": "132"
     },
     "resistant": [
       "fire",
@@ -821,11 +821,11 @@ export default {
     },
     "spawn-chance": "0.0067",
     "stats": {
-      "base-attack": "171",
-      "base-defense": "207",
-      "base-stamina": "188",
-      "max-cp": "2466",
-      "max-hp": "160"
+      "attack": "171",
+      "defense": "207",
+      "stamina": "188",
+      "cp": "2466",
+      "hp": "160"
     },
     "resistant": [
       "fire",
@@ -915,11 +915,11 @@ export default {
     },
     "spawn-chance": "3.032",
     "stats": {
-      "base-attack": "55",
-      "base-defense": "55",
-      "base-stamina": "128",
-      "max-cp": "437",
-      "max-hp": "113"
+      "attack": "55",
+      "defense": "55",
+      "stamina": "128",
+      "cp": "437",
+      "hp": "113"
     },
     "resistant": [
       "grass",
@@ -994,11 +994,11 @@ export default {
     },
     "spawn-chance": "0.187",
     "stats": {
-      "base-attack": "45",
-      "base-defense": "80",
-      "base-stamina": "137",
-      "max-cp": "450",
-      "max-hp": "120"
+      "attack": "45",
+      "defense": "80",
+      "stamina": "137",
+      "cp": "450",
+      "hp": "120"
     },
     "resistant": [
       "grass",
@@ -1074,11 +1074,11 @@ export default {
     },
     "spawn-chance": "0.022",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "137",
-      "base-stamina": "155",
-      "max-cp": "1827",
-      "max-hp": "134"
+      "attack": "167",
+      "defense": "137",
+      "stamina": "155",
+      "cp": "1827",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -1179,11 +1179,11 @@ export default {
     },
     "spawn-chance": "7.12",
     "stats": {
-      "base-attack": "63",
-      "base-defense": "50",
-      "base-stamina": "120",
-      "max-cp": "456",
-      "max-hp": "106"
+      "attack": "63",
+      "defense": "50",
+      "stamina": "120",
+      "cp": "456",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -1262,11 +1262,11 @@ export default {
     },
     "spawn-chance": "0.44",
     "stats": {
-      "base-attack": "46",
-      "base-defense": "75",
-      "base-stamina": "128",
-      "max-cp": "432",
-      "max-hp": "113"
+      "attack": "46",
+      "defense": "75",
+      "stamina": "128",
+      "cp": "432",
+      "hp": "113"
     },
     "resistant": [
       "grass",
@@ -1345,11 +1345,11 @@ export default {
     },
     "spawn-chance": "0.051",
     "stats": {
-      "base-attack": "169",
-      "base-defense": "130",
-      "base-stamina": "163",
-      "max-cp": "1846",
-      "max-hp": "140"
+      "attack": "169",
+      "defense": "130",
+      "stamina": "163",
+      "cp": "1846",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -1450,11 +1450,11 @@ export default {
     },
     "spawn-chance": "15.98",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "680",
-      "max-hp": "106"
+      "attack": "85",
+      "defense": "73",
+      "stamina": "120",
+      "cp": "680",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -1545,11 +1545,11 @@ export default {
     },
     "spawn-chance": "1.02",
     "stats": {
-      "base-attack": "117",
-      "base-defense": "105",
-      "base-stamina": "160",
-      "max-cp": "1194",
-      "max-hp": "138"
+      "attack": "117",
+      "defense": "105",
+      "stamina": "160",
+      "cp": "1194",
+      "hp": "138"
     },
     "resistant": [
       "grass",
@@ -1640,11 +1640,11 @@ export default {
     },
     "spawn-chance": "0.13",
     "stats": {
-      "base-attack": "166",
-      "base-defense": "154",
-      "base-stamina": "195",
-      "max-cp": "2129",
-      "max-hp": "165"
+      "attack": "166",
+      "defense": "154",
+      "stamina": "195",
+      "cp": "2129",
+      "hp": "165"
     },
     "resistant": [
       "grass",
@@ -1748,11 +1748,11 @@ export default {
     },
     "spawn-chance": "13.05",
     "stats": {
-      "base-attack": "103",
-      "base-defense": "70",
-      "base-stamina": "102",
-      "max-cp": "734",
-      "max-hp": "92"
+      "attack": "103",
+      "defense": "70",
+      "stamina": "102",
+      "cp": "734",
+      "hp": "92"
     },
     "resistant": [
       "ghost"
@@ -1833,11 +1833,11 @@ export default {
     },
     "spawn-chance": "0.41",
     "stats": {
-      "base-attack": "161",
-      "base-defense": "139",
-      "base-stamina": "146",
-      "max-cp": "1730",
-      "max-hp": "127"
+      "attack": "161",
+      "defense": "139",
+      "stamina": "146",
+      "cp": "1730",
+      "hp": "127"
     },
     "resistant": [
       "ghost"
@@ -1919,11 +1919,11 @@ export default {
     },
     "spawn-chance": "4.73",
     "stats": {
-      "base-attack": "112",
-      "base-defense": "60",
-      "base-stamina": "120",
-      "max-cp": "798",
-      "max-hp": "106"
+      "attack": "112",
+      "defense": "60",
+      "stamina": "120",
+      "cp": "798",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -2016,11 +2016,11 @@ export default {
     },
     "spawn-chance": "0.15",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "133",
-      "base-stamina": "163",
-      "max-cp": "1997",
-      "max-hp": "140"
+      "attack": "182",
+      "defense": "133",
+      "stamina": "163",
+      "cp": "1997",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -2112,11 +2112,11 @@ export default {
     },
     "spawn-chance": "2.27",
     "stats": {
-      "base-attack": "110",
-      "base-defense": "97",
-      "base-stamina": "111",
-      "max-cp": "927",
-      "max-hp": "99"
+      "attack": "110",
+      "defense": "97",
+      "stamina": "111",
+      "cp": "927",
+      "hp": "99"
     },
     "resistant": [
       "grass",
@@ -2209,11 +2209,11 @@ export default {
     },
     "spawn-chance": "0.072",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "153",
-      "base-stamina": "155",
-      "max-cp": "1921",
-      "max-hp": "134"
+      "attack": "167",
+      "defense": "153",
+      "stamina": "155",
+      "cp": "1921",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -2299,11 +2299,11 @@ export default {
     },
     "spawn-chance": "0.21",
     "stats": {
-      "base-attack": "112",
-      "base-defense": "96",
-      "base-stamina": "111",
-      "max-cp": "938",
-      "max-hp": "99"
+      "attack": "112",
+      "defense": "96",
+      "stamina": "111",
+      "cp": "938",
+      "hp": "99"
     },
     "resistant": [
       "electric",
@@ -2398,11 +2398,11 @@ export default {
     },
     "spawn-chance": "0.0076",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "151",
-      "base-stamina": "155",
-      "max-cp": "2182",
-      "max-hp": "134"
+      "attack": "193",
+      "defense": "151",
+      "stamina": "155",
+      "cp": "2182",
+      "hp": "134"
     },
     "resistant": [
       "electric",
@@ -2504,11 +2504,11 @@ export default {
     },
     "spawn-chance": "1.11",
     "stats": {
-      "base-attack": "126",
-      "base-defense": "120",
-      "base-stamina": "137",
-      "max-cp": "1261",
-      "max-hp": "120"
+      "attack": "126",
+      "defense": "120",
+      "stamina": "137",
+      "cp": "1261",
+      "hp": "120"
     },
     "resistant": [
       "electric",
@@ -2600,11 +2600,11 @@ export default {
     },
     "spawn-chance": "0.037",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "175",
-      "base-stamina": "181",
-      "max-cp": "2374",
-      "max-hp": "154"
+      "attack": "182",
+      "defense": "175",
+      "stamina": "181",
+      "cp": "2374",
+      "hp": "154"
     },
     "resistant": [
       "electric",
@@ -2689,11 +2689,11 @@ export default {
     },
     "spawn-chance": "1.38",
     "stats": {
-      "base-attack": "86",
-      "base-defense": "89",
-      "base-stamina": "146",
-      "max-cp": "816",
-      "max-hp": "127"
+      "attack": "86",
+      "defense": "89",
+      "stamina": "146",
+      "cp": "816",
+      "hp": "127"
     },
     "resistant": [
       "grass",
@@ -2784,11 +2784,11 @@ export default {
     },
     "spawn-chance": "0.088",
     "stats": {
-      "base-attack": "117",
-      "base-defense": "120",
-      "base-stamina": "172",
-      "max-cp": "1309",
-      "max-hp": "147"
+      "attack": "117",
+      "defense": "120",
+      "stamina": "172",
+      "cp": "1309",
+      "hp": "147"
     },
     "resistant": [
       "grass",
@@ -2880,11 +2880,11 @@ export default {
     },
     "spawn-chance": "0.012",
     "stats": {
-      "base-attack": "180",
-      "base-defense": "173",
-      "base-stamina": "207",
-      "max-cp": "2488",
-      "max-hp": "175"
+      "attack": "180",
+      "defense": "173",
+      "stamina": "207",
+      "cp": "2488",
+      "hp": "175"
     },
     "resistant": [
       "electric",
@@ -2977,11 +2977,11 @@ export default {
     },
     "spawn-chance": "1.31",
     "stats": {
-      "base-attack": "105",
-      "base-defense": "76",
-      "base-stamina": "130",
-      "max-cp": "860",
-      "max-hp": "114"
+      "attack": "105",
+      "defense": "76",
+      "stamina": "130",
+      "cp": "860",
+      "hp": "114"
     },
     "resistant": [
       "grass",
@@ -3072,11 +3072,11 @@ export default {
     },
     "spawn-chance": "0.083",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "111",
-      "base-stamina": "156",
-      "max-cp": "1393",
-      "max-hp": "135"
+      "attack": "137",
+      "defense": "111",
+      "stamina": "156",
+      "cp": "1393",
+      "hp": "135"
     },
     "resistant": [
       "grass",
@@ -3168,11 +3168,11 @@ export default {
     },
     "spawn-chance": "0.017",
     "stats": {
-      "base-attack": "204",
-      "base-defense": "156",
-      "base-stamina": "191",
-      "max-cp": "2567",
-      "max-hp": "162"
+      "attack": "204",
+      "defense": "156",
+      "stamina": "191",
+      "cp": "2567",
+      "hp": "162"
     },
     "resistant": [
       "electric",
@@ -3272,11 +3272,11 @@ export default {
     },
     "spawn-chance": "0.92",
     "stats": {
-      "base-attack": "107",
-      "base-defense": "108",
-      "base-stamina": "172",
-      "max-cp": "1155",
-      "max-hp": "147"
+      "attack": "107",
+      "defense": "108",
+      "stamina": "172",
+      "cp": "1155",
+      "hp": "147"
     },
     "resistant": [
       "fighting",
@@ -3365,11 +3365,11 @@ export default {
     },
     "spawn-chance": "0.012",
     "stats": {
-      "base-attack": "178",
-      "base-defense": "162",
-      "base-stamina": "216",
-      "max-cp": "2437",
-      "max-hp": "182"
+      "attack": "178",
+      "defense": "162",
+      "stamina": "216",
+      "cp": "2437",
+      "hp": "182"
     },
     "resistant": [
       "fighting",
@@ -3465,11 +3465,11 @@ export default {
     },
     "spawn-chance": "0.22",
     "stats": {
-      "base-attack": "96",
-      "base-defense": "109",
-      "base-stamina": "116",
-      "max-cp": "883",
-      "max-hp": "103"
+      "attack": "96",
+      "defense": "109",
+      "stamina": "116",
+      "cp": "883",
+      "hp": "103"
     },
     "resistant": [
       "fire",
@@ -3556,11 +3556,11 @@ export default {
     },
     "spawn-chance": "0.0077",
     "stats": {
-      "base-attack": "169",
-      "base-defense": "190",
-      "base-stamina": "177",
-      "max-cp": "2279",
-      "max-hp": "151"
+      "attack": "169",
+      "defense": "190",
+      "stamina": "177",
+      "cp": "2279",
+      "hp": "151"
     },
     "resistant": [
       "fire",
@@ -3668,11 +3668,11 @@ export default {
     },
     "spawn-chance": "0.39",
     "stats": {
-      "base-attack": "80",
-      "base-defense": "41",
-      "base-stamina": "251",
-      "max-cp": "724",
-      "max-hp": "210"
+      "attack": "80",
+      "defense": "41",
+      "stamina": "251",
+      "cp": "724",
+      "hp": "210"
     },
     "resistant": [
       "bug",
@@ -3775,11 +3775,11 @@ export default {
     },
     "spawn-chance": "0.018",
     "stats": {
-      "base-attack": "156",
-      "base-defense": "90",
-      "base-stamina": "295",
-      "max-cp": "1926",
-      "max-hp": "244"
+      "attack": "156",
+      "defense": "90",
+      "stamina": "295",
+      "cp": "1926",
+      "hp": "244"
     },
     "resistant": [
       "bug",
@@ -3869,11 +3869,11 @@ export default {
     },
     "spawn-chance": "6.52",
     "stats": {
-      "base-attack": "83",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "667",
-      "max-hp": "106"
+      "attack": "83",
+      "defense": "73",
+      "stamina": "120",
+      "cp": "667",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -3974,11 +3974,11 @@ export default {
     },
     "spawn-chance": "0.42",
     "stats": {
-      "base-attack": "161",
-      "base-defense": "150",
-      "base-stamina": "181",
-      "max-cp": "1976",
-      "max-hp": "154"
+      "attack": "161",
+      "defense": "150",
+      "stamina": "181",
+      "cp": "1976",
+      "hp": "154"
     },
     "resistant": [
       "grass",
@@ -4078,11 +4078,11 @@ export default {
     },
     "spawn-chance": "1.02",
     "stats": {
-      "base-attack": "131",
-      "base-defense": "112",
-      "base-stamina": "128",
-      "max-cp": "1228",
-      "max-hp": "113"
+      "attack": "131",
+      "defense": "112",
+      "stamina": "128",
+      "cp": "1228",
+      "hp": "113"
     },
     "resistant": [
       "water",
@@ -4187,11 +4187,11 @@ export default {
     },
     "spawn-chance": "0.064",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "136",
-      "base-stamina": "155",
-      "max-cp": "1681",
-      "max-hp": "134"
+      "attack": "153",
+      "defense": "136",
+      "stamina": "155",
+      "cp": "1681",
+      "hp": "134"
     },
     "resistant": [
       "water",
@@ -4296,11 +4296,11 @@ export default {
     },
     "spawn-chance": "0.0097",
     "stats": {
-      "base-attack": "202",
-      "base-defense": "167",
-      "base-stamina": "181",
-      "max-cp": "2559",
-      "max-hp": "154"
+      "attack": "202",
+      "defense": "167",
+      "stamina": "181",
+      "cp": "2559",
+      "hp": "154"
     },
     "resistant": [
       "water",
@@ -4394,11 +4394,11 @@ export default {
     },
     "spawn-chance": "2.36",
     "stats": {
-      "base-attack": "121",
-      "base-defense": "99",
-      "base-stamina": "111",
-      "max-cp": "1018",
-      "max-hp": "99"
+      "attack": "121",
+      "defense": "99",
+      "stamina": "111",
+      "cp": "1018",
+      "hp": "99"
     },
     "resistant": [
       "water",
@@ -4489,11 +4489,11 @@ export default {
     },
     "spawn-chance": "0.074",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "146",
-      "base-stamina": "155",
-      "max-cp": "1859",
-      "max-hp": "134"
+      "attack": "165",
+      "defense": "146",
+      "stamina": "155",
+      "cp": "1859",
+      "hp": "134"
     },
     "resistant": [
       "water",
@@ -4591,11 +4591,11 @@ export default {
     },
     "spawn-chance": "2.28",
     "stats": {
-      "base-attack": "100",
-      "base-defense": "100",
-      "base-stamina": "155",
-      "max-cp": "1004",
-      "max-hp": "134"
+      "attack": "100",
+      "defense": "100",
+      "stamina": "155",
+      "cp": "1004",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -4684,11 +4684,11 @@ export default {
     },
     "spawn-chance": "0.072",
     "stats": {
-      "base-attack": "179",
-      "base-defense": "143",
-      "base-stamina": "172",
-      "max-cp": "2082",
-      "max-hp": "147"
+      "attack": "179",
+      "defense": "143",
+      "stamina": "172",
+      "cp": "2082",
+      "hp": "147"
     },
     "resistant": [
       "grass",
@@ -4790,11 +4790,11 @@ export default {
     },
     "spawn-chance": "0.4",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "78",
-      "base-stamina": "67",
-      "max-cp": "676",
-      "max-hp": "64"
+      "attack": "109",
+      "defense": "78",
+      "stamina": "67",
+      "cp": "676",
+      "hp": "64"
     },
     "resistant": [
       "electric",
@@ -4886,11 +4886,11 @@ export default {
     },
     "spawn-chance": "0.014",
     "stats": {
-      "base-attack": "167",
-      "base-defense": "134",
-      "base-stamina": "111",
-      "max-cp": "1557",
-      "max-hp": "99"
+      "attack": "167",
+      "defense": "134",
+      "stamina": "111",
+      "cp": "1557",
+      "hp": "99"
     },
     "resistant": [
       "electric",
@@ -4982,11 +4982,11 @@ export default {
     },
     "spawn-chance": "0.86",
     "stats": {
-      "base-attack": "92",
-      "base-defense": "78",
-      "base-stamina": "120",
-      "max-cp": "748",
-      "max-hp": "106"
+      "attack": "92",
+      "defense": "78",
+      "stamina": "120",
+      "cp": "748",
+      "hp": "106"
     },
     "resistant": [
       "ghost"
@@ -5074,11 +5074,11 @@ export default {
     },
     "spawn-chance": "0.022",
     "stats": {
-      "base-attack": "150",
-      "base-defense": "136",
-      "base-stamina": "163",
-      "max-cp": "1689",
-      "max-hp": "140"
+      "attack": "150",
+      "defense": "136",
+      "stamina": "163",
+      "cp": "1689",
+      "hp": "140"
     },
     "resistant": [
       "ghost"
@@ -5166,11 +5166,11 @@ export default {
     },
     "spawn-chance": "2.54",
     "stats": {
-      "base-attack": "122",
-      "base-defense": "95",
-      "base-stamina": "137",
-      "max-cp": "1106",
-      "max-hp": "120"
+      "attack": "122",
+      "defense": "95",
+      "stamina": "137",
+      "cp": "1106",
+      "hp": "120"
     },
     "resistant": [
       "fire",
@@ -5255,11 +5255,11 @@ export default {
     },
     "spawn-chance": "0.087",
     "stats": {
-      "base-attack": "191",
-      "base-defense": "162",
-      "base-stamina": "190",
-      "max-cp": "2450",
-      "max-hp": "162"
+      "attack": "191",
+      "defense": "162",
+      "stamina": "190",
+      "cp": "2450",
+      "hp": "162"
     },
     "resistant": [
       "fire",
@@ -5344,11 +5344,11 @@ export default {
     },
     "spawn-chance": "0.92",
     "stats": {
-      "base-attack": "148",
-      "base-defense": "82",
-      "base-stamina": "120",
-      "max-cp": "1164",
-      "max-hp": "106"
+      "attack": "148",
+      "defense": "82",
+      "stamina": "120",
+      "cp": "1164",
+      "hp": "106"
     },
     "resistant": [
       "bug",
@@ -5433,11 +5433,11 @@ export default {
     },
     "spawn-chance": "0.031",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "138",
-      "base-stamina": "163",
-      "max-cp": "2288",
-      "max-hp": "140"
+      "attack": "207",
+      "defense": "138",
+      "stamina": "163",
+      "cp": "2288",
+      "hp": "140"
     },
     "resistant": [
       "bug",
@@ -5536,11 +5536,11 @@ export default {
     },
     "spawn-chance": "0.92",
     "stats": {
-      "base-attack": "136",
-      "base-defense": "93",
-      "base-stamina": "146",
-      "max-cp": "1243",
-      "max-hp": "127"
+      "attack": "136",
+      "defense": "93",
+      "stamina": "146",
+      "cp": "1243",
+      "hp": "127"
     },
     "resistant": [
       "fire",
@@ -5627,11 +5627,11 @@ export default {
     },
     "spawn-chance": "0.017",
     "stats": {
-      "base-attack": "227",
-      "base-defense": "166",
-      "base-stamina": "207",
-      "max-cp": "3029",
-      "max-hp": "175"
+      "attack": "227",
+      "defense": "166",
+      "stamina": "207",
+      "cp": "3029",
+      "hp": "175"
     },
     "resistant": [
       "fire",
@@ -5739,11 +5739,11 @@ export default {
     },
     "spawn-chance": "2.19",
     "stats": {
-      "base-attack": "101",
-      "base-defense": "82",
-      "base-stamina": "120",
-      "max-cp": "829",
-      "max-hp": "106"
+      "attack": "101",
+      "defense": "82",
+      "stamina": "120",
+      "cp": "829",
+      "hp": "106"
     },
     "resistant": [
       "fire",
@@ -5844,11 +5844,11 @@ export default {
     },
     "spawn-chance": "0.13",
     "stats": {
-      "base-attack": "130",
-      "base-defense": "123",
-      "base-stamina": "163",
-      "max-cp": "1419",
-      "max-hp": "140"
+      "attack": "130",
+      "defense": "123",
+      "stamina": "163",
+      "cp": "1419",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -5957,11 +5957,11 @@ export default {
     },
     "spawn-chance": "0.011",
     "stats": {
-      "base-attack": "182",
-      "base-defense": "184",
-      "base-stamina": "207",
-      "max-cp": "2586",
-      "max-hp": "175"
+      "attack": "182",
+      "defense": "184",
+      "stamina": "207",
+      "cp": "2586",
+      "hp": "175"
     },
     "resistant": [
       "fire",
@@ -6069,11 +6069,11 @@ export default {
     },
     "spawn-chance": "0.42",
     "stats": {
-      "base-attack": "195",
-      "base-defense": "82",
-      "base-stamina": "93",
-      "max-cp": "1342",
-      "max-hp": "85"
+      "attack": "195",
+      "defense": "82",
+      "stamina": "93",
+      "cp": "1342",
+      "hp": "85"
     },
     "resistant": [
       "fighting",
@@ -6162,11 +6162,11 @@ export default {
     },
     "spawn-chance": "0.027",
     "stats": {
-      "base-attack": "232",
-      "base-defense": "117",
-      "base-stamina": "120",
-      "max-cp": "2059",
-      "max-hp": "106"
+      "attack": "232",
+      "defense": "117",
+      "stamina": "120",
+      "cp": "2059",
+      "hp": "106"
     },
     "resistant": [
       "fighting",
@@ -6255,11 +6255,11 @@ export default {
     },
     "spawn-chance": "0.0073",
     "stats": {
-      "base-attack": "271",
-      "base-defense": "167",
-      "base-stamina": "146",
-      "max-cp": "3057",
-      "max-hp": "127"
+      "attack": "271",
+      "defense": "167",
+      "stamina": "146",
+      "cp": "3057",
+      "hp": "127"
     },
     "resistant": [
       "fighting",
@@ -6362,11 +6362,11 @@ export default {
     },
     "spawn-chance": "0.49",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "82",
-      "base-stamina": "172",
-      "max-cp": "1278",
-      "max-hp": "147"
+      "attack": "137",
+      "defense": "82",
+      "stamina": "172",
+      "cp": "1278",
+      "hp": "147"
     },
     "resistant": [
       "bug",
@@ -6463,11 +6463,11 @@ export default {
     },
     "spawn-chance": "0.034",
     "stats": {
-      "base-attack": "177",
-      "base-defense": "125",
-      "base-stamina": "190",
-      "max-cp": "2031",
-      "max-hp": "162"
+      "attack": "177",
+      "defense": "125",
+      "stamina": "190",
+      "cp": "2031",
+      "hp": "162"
     },
     "resistant": [
       "bug",
@@ -6564,11 +6564,11 @@ export default {
     },
     "spawn-chance": "0.0068",
     "stats": {
-      "base-attack": "234",
-      "base-defense": "159",
-      "base-stamina": "207",
-      "max-cp": "3056",
-      "max-hp": "175"
+      "attack": "234",
+      "defense": "159",
+      "stamina": "207",
+      "cp": "3056",
+      "hp": "175"
     },
     "resistant": [
       "bug",
@@ -6687,11 +6687,11 @@ export default {
     },
     "spawn-chance": "1.15",
     "stats": {
-      "base-attack": "139",
-      "base-defense": "61",
-      "base-stamina": "137",
-      "max-cp": "1033",
-      "max-hp": "120"
+      "attack": "139",
+      "defense": "61",
+      "stamina": "137",
+      "cp": "1033",
+      "hp": "120"
     },
     "resistant": [
       "water",
@@ -6785,11 +6785,11 @@ export default {
     },
     "spawn-chance": "0.072",
     "stats": {
-      "base-attack": "172",
-      "base-defense": "92",
-      "base-stamina": "163",
-      "max-cp": "1611",
-      "max-hp": "140"
+      "attack": "172",
+      "defense": "92",
+      "stamina": "163",
+      "cp": "1611",
+      "hp": "140"
     },
     "resistant": [
       "water",
@@ -6890,11 +6890,11 @@ export default {
     },
     "spawn-chance": "0.0059",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "135",
-      "base-stamina": "190",
-      "max-cp": "2431",
-      "max-hp": "162"
+      "attack": "207",
+      "defense": "135",
+      "stamina": "190",
+      "cp": "2431",
+      "hp": "162"
     },
     "resistant": [
       "water",
@@ -6988,11 +6988,11 @@ export default {
     },
     "spawn-chance": "0.81",
     "stats": {
-      "base-attack": "97",
-      "base-defense": "149",
-      "base-stamina": "120",
-      "max-cp": "1040",
-      "max-hp": "106"
+      "attack": "97",
+      "defense": "149",
+      "stamina": "120",
+      "cp": "1040",
+      "hp": "106"
     },
     "resistant": [
       "fire",
@@ -7080,11 +7080,11 @@ export default {
     },
     "spawn-chance": "0.082",
     "stats": {
-      "base-attack": "166",
-      "base-defense": "209",
-      "base-stamina": "190",
-      "max-cp": "2422",
-      "max-hp": "162"
+      "attack": "166",
+      "defense": "209",
+      "stamina": "190",
+      "cp": "2422",
+      "hp": "162"
     },
     "resistant": [
       "fire",
@@ -7172,11 +7172,11 @@ export default {
     },
     "spawn-chance": "1.19",
     "stats": {
-      "base-attack": "132",
-      "base-defense": "132",
-      "base-stamina": "120",
-      "max-cp": "1293",
-      "max-hp": "106"
+      "attack": "132",
+      "defense": "132",
+      "stamina": "120",
+      "cp": "1293",
+      "hp": "106"
     },
     "resistant": [
       "normal",
@@ -7272,11 +7272,11 @@ export default {
     },
     "spawn-chance": "0.071",
     "stats": {
-      "base-attack": "164",
-      "base-defense": "164",
-      "base-stamina": "146",
-      "max-cp": "1897",
-      "max-hp": "127"
+      "attack": "164",
+      "defense": "164",
+      "stamina": "146",
+      "cp": "1897",
+      "hp": "127"
     },
     "resistant": [
       "normal",
@@ -7386,11 +7386,11 @@ export default {
     },
     "spawn-chance": "0.0047",
     "stats": {
-      "base-attack": "211",
-      "base-defense": "198",
-      "base-stamina": "190",
-      "max-cp": "2949",
-      "max-hp": "162"
+      "attack": "211",
+      "defense": "198",
+      "stamina": "190",
+      "cp": "2949",
+      "hp": "162"
     },
     "resistant": [
       "normal",
@@ -7499,11 +7499,11 @@ export default {
     },
     "spawn-chance": "0.51",
     "stats": {
-      "base-attack": "170",
-      "base-defense": "127",
-      "base-stamina": "137",
-      "max-cp": "1697",
-      "max-hp": "120"
+      "attack": "170",
+      "defense": "127",
+      "stamina": "137",
+      "cp": "1697",
+      "hp": "120"
     },
     "resistant": [
       "fire",
@@ -7597,11 +7597,11 @@ export default {
     },
     "spawn-chance": "0.011",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "162",
-      "base-stamina": "163",
-      "max-cp": "2461",
-      "max-hp": "140"
+      "attack": "207",
+      "defense": "162",
+      "stamina": "163",
+      "cp": "2461",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -7696,11 +7696,11 @@ export default {
     },
     "spawn-chance": "1.05",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "98",
-      "base-stamina": "207",
-      "max-cp": "1226",
-      "max-hp": "175"
+      "attack": "109",
+      "defense": "98",
+      "stamina": "207",
+      "cp": "1226",
+      "hp": "175"
     },
     "resistant": [
       "fire",
@@ -7801,11 +7801,11 @@ export default {
     },
     "spawn-chance": "0.036",
     "stats": {
-      "base-attack": "177",
-      "base-defense": "180",
-      "base-stamina": "216",
-      "max-cp": "2545",
-      "max-hp": "182"
+      "attack": "177",
+      "defense": "180",
+      "stamina": "216",
+      "cp": "2545",
+      "hp": "182"
     },
     "resistant": [
       "fire",
@@ -7894,11 +7894,11 @@ export default {
     },
     "spawn-chance": "0.71",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "121",
-      "base-stamina": "93",
-      "max-cp": "1362",
-      "max-hp": "85"
+      "attack": "165",
+      "defense": "121",
+      "stamina": "93",
+      "cp": "1362",
+      "hp": "85"
     },
     "resistant": [
       "normal",
@@ -7985,11 +7985,11 @@ export default {
     },
     "spawn-chance": "0.023",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "169",
-      "base-stamina": "137",
-      "max-cp": "2485",
-      "max-hp": "120"
+      "attack": "223",
+      "defense": "169",
+      "stamina": "137",
+      "cp": "2485",
+      "hp": "120"
     },
     "resistant": [
       "normal",
@@ -8092,11 +8092,11 @@ export default {
     },
     "spawn-chance": "0.0212",
     "stats": {
-      "base-attack": "124",
-      "base-defense": "115",
-      "base-stamina": "141",
-      "max-cp": "1236",
-      "max-hp": "123"
+      "attack": "124",
+      "defense": "115",
+      "stamina": "141",
+      "cp": "1236",
+      "hp": "123"
     },
     "resistant": [
       "grass",
@@ -8184,11 +8184,11 @@ export default {
     },
     "spawn-chance": "0.52",
     "stats": {
-      "base-attack": "158",
-      "base-defense": "83",
-      "base-stamina": "111",
-      "max-cp": "1200",
-      "max-hp": "99"
+      "attack": "158",
+      "defense": "83",
+      "stamina": "111",
+      "cp": "1200",
+      "hp": "99"
     },
     "resistant": [
       "grass",
@@ -8281,11 +8281,11 @@ export default {
     },
     "spawn-chance": "0.22",
     "stats": {
-      "base-attack": "218",
-      "base-defense": "140",
-      "base-stamina": "155",
-      "max-cp": "2362",
-      "max-hp": "134"
+      "attack": "218",
+      "defense": "140",
+      "stamina": "155",
+      "cp": "2362",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -8377,11 +8377,11 @@ export default {
     },
     "spawn-chance": "0.28",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "121",
-      "base-stamina": "163",
-      "max-cp": "971",
-      "max-hp": "140"
+      "attack": "85",
+      "defense": "121",
+      "stamina": "163",
+      "cp": "971",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -8481,11 +8481,11 @@ export default {
     },
     "spawn-chance": "0.013",
     "stats": {
-      "base-attack": "139",
-      "base-defense": "177",
-      "base-stamina": "207",
-      "max-cp": "1985",
-      "max-hp": "175"
+      "attack": "139",
+      "defense": "177",
+      "stamina": "207",
+      "cp": "1985",
+      "hp": "175"
     },
     "resistant": [
       "water",
@@ -8591,11 +8591,11 @@ export default {
     },
     "spawn-chance": "0.052",
     "stats": {
-      "base-attack": "135",
-      "base-defense": "90",
-      "base-stamina": "190",
-      "max-cp": "1374",
-      "max-hp": "162"
+      "attack": "135",
+      "defense": "90",
+      "stamina": "190",
+      "cp": "1374",
+      "hp": "162"
     },
     "resistant": [
       "grass",
@@ -8688,11 +8688,11 @@ export default {
     },
     "spawn-chance": "0.0031",
     "stats": {
-      "base-attack": "190",
-      "base-defense": "172",
-      "base-stamina": "233",
-      "max-cp": "2757",
-      "max-hp": "195"
+      "attack": "190",
+      "defense": "172",
+      "stamina": "233",
+      "cp": "2757",
+      "hp": "195"
     },
     "resistant": [
       "grass",
@@ -8792,11 +8792,11 @@ export default {
     },
     "spawn-chance": "0.52",
     "stats": {
-      "base-attack": "116",
-      "base-defense": "134",
-      "base-stamina": "102",
-      "max-cp": "1080",
-      "max-hp": "92"
+      "attack": "116",
+      "defense": "134",
+      "stamina": "102",
+      "cp": "1080",
+      "hp": "92"
     },
     "resistant": [
       "fire",
@@ -8882,11 +8882,11 @@ export default {
     },
     "spawn-chance": "0.015",
     "stats": {
-      "base-attack": "186",
-      "base-defense": "256",
-      "base-stamina": "137",
-      "max-cp": "2547",
-      "max-hp": "120"
+      "attack": "186",
+      "defense": "256",
+      "stamina": "137",
+      "cp": "2547",
+      "hp": "120"
     },
     "resistant": [
       "water",
@@ -8986,11 +8986,11 @@ export default {
     },
     "spawn-chance": "0.79",
     "stats": {
-      "base-attack": "186",
-      "base-defense": "67",
-      "base-stamina": "102",
-      "max-cp": "1229",
-      "max-hp": "92"
+      "attack": "186",
+      "defense": "67",
+      "stamina": "102",
+      "cp": "1229",
+      "hp": "92"
     },
     "resistant": [
       "normal",
@@ -9098,11 +9098,11 @@ export default {
     },
     "spawn-chance": "0.052",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "107",
-      "base-stamina": "128",
-      "max-cp": "1963",
-      "max-hp": "113"
+      "attack": "223",
+      "defense": "107",
+      "stamina": "128",
+      "cp": "1963",
+      "hp": "113"
     },
     "resistant": [
       "normal",
@@ -9210,11 +9210,11 @@ export default {
     },
     "spawn-chance": "0.0067",
     "stats": {
-      "base-attack": "261",
-      "base-defense": "149",
-      "base-stamina": "155",
-      "max-cp": "2878",
-      "max-hp": "134"
+      "attack": "261",
+      "defense": "149",
+      "stamina": "155",
+      "cp": "2878",
+      "hp": "134"
     },
     "resistant": [
       "normal",
@@ -9329,11 +9329,11 @@ export default {
     },
     "spawn-chance": "0.1",
     "stats": {
-      "base-attack": "85",
-      "base-defense": "232",
-      "base-stamina": "111",
-      "max-cp": "1101",
-      "max-hp": "99"
+      "attack": "85",
+      "defense": "232",
+      "stamina": "111",
+      "cp": "1101",
+      "hp": "99"
     },
     "resistant": [
       "normal",
@@ -9441,11 +9441,11 @@ export default {
     },
     "spawn-chance": "3.21",
     "stats": {
-      "base-attack": "89",
-      "base-defense": "136",
-      "base-stamina": "155",
-      "max-cp": "1040",
-      "max-hp": "134"
+      "attack": "89",
+      "defense": "136",
+      "stamina": "155",
+      "cp": "1040",
+      "hp": "134"
     },
     "resistant": [
       "fighting",
@@ -9529,11 +9529,11 @@ export default {
     },
     "spawn-chance": "0.1",
     "stats": {
-      "base-attack": "144",
-      "base-defense": "193",
-      "base-stamina": "198",
-      "max-cp": "2090",
-      "max-hp": "168"
+      "attack": "144",
+      "defense": "193",
+      "stamina": "198",
+      "cp": "2090",
+      "hp": "168"
     },
     "resistant": [
       "fighting",
@@ -9631,11 +9631,11 @@ export default {
     },
     "spawn-chance": "2.12",
     "stats": {
-      "base-attack": "181",
-      "base-defense": "124",
-      "base-stamina": "102",
-      "max-cp": "1561",
-      "max-hp": "92"
+      "attack": "181",
+      "defense": "124",
+      "stamina": "102",
+      "cp": "1561",
+      "hp": "92"
     },
     "resistant": [
       "fire",
@@ -9720,11 +9720,11 @@ export default {
     },
     "spawn-chance": "0.062",
     "stats": {
-      "base-attack": "240",
-      "base-defense": "181",
-      "base-stamina": "146",
-      "max-cp": "2829",
-      "max-hp": "127"
+      "attack": "240",
+      "defense": "181",
+      "stamina": "146",
+      "cp": "2829",
+      "hp": "127"
     },
     "resistant": [
       "fire",
@@ -9816,11 +9816,11 @@ export default {
     },
     "spawn-chance": "0.65",
     "stats": {
-      "base-attack": "109",
-      "base-defense": "111",
-      "base-stamina": "120",
-      "max-cp": "1010",
-      "max-hp": "106"
+      "attack": "109",
+      "defense": "111",
+      "stamina": "120",
+      "cp": "1010",
+      "hp": "106"
     },
     "resistant": [
       "electric",
@@ -9910,11 +9910,11 @@ export default {
     },
     "spawn-chance": "0.02",
     "stats": {
-      "base-attack": "173",
-      "base-defense": "173",
-      "base-stamina": "155",
-      "max-cp": "2099",
-      "max-hp": "134"
+      "attack": "173",
+      "defense": "173",
+      "stamina": "155",
+      "cp": "2099",
+      "hp": "134"
     },
     "resistant": [
       "electric",
@@ -10005,11 +10005,11 @@ export default {
     },
     "spawn-chance": "0.78",
     "stats": {
-      "base-attack": "107",
-      "base-defense": "125",
-      "base-stamina": "155",
-      "max-cp": "1175",
-      "max-hp": "134"
+      "attack": "107",
+      "defense": "125",
+      "stamina": "155",
+      "cp": "1175",
+      "hp": "134"
     },
     "resistant": [
       "water",
@@ -10101,11 +10101,11 @@ export default {
     },
     "spawn-chance": "0.014",
     "stats": {
-      "base-attack": "233",
-      "base-defense": "149",
-      "base-stamina": "216",
-      "max-cp": "3014",
-      "max-hp": "182"
+      "attack": "233",
+      "defense": "149",
+      "stamina": "216",
+      "cp": "3014",
+      "hp": "182"
     },
     "resistant": [
       "water",
@@ -10210,11 +10210,11 @@ export default {
     },
     "spawn-chance": "0.61",
     "stats": {
-      "base-attack": "90",
-      "base-defense": "144",
-      "base-stamina": "137",
-      "max-cp": "1019",
-      "max-hp": "120"
+      "attack": "90",
+      "defense": "144",
+      "stamina": "137",
+      "cp": "1019",
+      "hp": "120"
     },
     "resistant": [
       "electric",
@@ -10299,11 +10299,11 @@ export default {
     },
     "spawn-chance": "0.02",
     "stats": {
-      "base-attack": "144",
-      "base-defense": "186",
-      "base-stamina": "155",
-      "max-cp": "1835",
-      "max-hp": "134"
+      "attack": "144",
+      "defense": "186",
+      "stamina": "155",
+      "cp": "1835",
+      "hp": "134"
     },
     "resistant": [
       "electric",
@@ -10388,11 +10388,11 @@ export default {
     },
     "spawn-chance": "0.02",
     "stats": {
-      "base-attack": "224",
-      "base-defense": "181",
-      "base-stamina": "137",
-      "max-cp": "2576",
-      "max-hp": "120"
+      "attack": "224",
+      "defense": "181",
+      "stamina": "137",
+      "cp": "2576",
+      "hp": "120"
     },
     "resistant": [
       "bug",
@@ -10491,11 +10491,11 @@ export default {
     },
     "spawn-chance": "0.022",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "197",
-      "base-stamina": "137",
-      "max-cp": "2332",
-      "max-hp": "120"
+      "attack": "193",
+      "defense": "197",
+      "stamina": "137",
+      "cp": "2332",
+      "hp": "120"
     },
     "resistant": [
       "bug",
@@ -10601,11 +10601,11 @@ export default {
     },
     "spawn-chance": "0.011",
     "stats": {
-      "base-attack": "108",
-      "base-defense": "137",
-      "base-stamina": "207",
-      "max-cp": "1411",
-      "max-hp": "175"
+      "attack": "108",
+      "defense": "137",
+      "stamina": "207",
+      "cp": "1411",
+      "hp": "175"
     },
     "resistant": [
       "ghost"
@@ -10681,11 +10681,11 @@ export default {
     },
     "spawn-chance": "0.2",
     "stats": {
-      "base-attack": "119",
-      "base-defense": "141",
-      "base-stamina": "120",
-      "max-cp": "1214",
-      "max-hp": "106"
+      "attack": "119",
+      "defense": "141",
+      "stamina": "120",
+      "cp": "1214",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -10778,11 +10778,11 @@ export default {
     },
     "spawn-chance": "0.016",
     "stats": {
-      "base-attack": "174",
-      "base-defense": "197",
-      "base-stamina": "163",
-      "max-cp": "2293",
-      "max-hp": "140"
+      "attack": "174",
+      "defense": "197",
+      "stamina": "163",
+      "cp": "2293",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -10876,11 +10876,11 @@ export default {
     },
     "spawn-chance": "0.63",
     "stats": {
-      "base-attack": "140",
-      "base-defense": "127",
-      "base-stamina": "190",
-      "max-cp": "1651",
-      "max-hp": "162"
+      "attack": "140",
+      "defense": "127",
+      "stamina": "190",
+      "cp": "1651",
+      "hp": "162"
     },
     "resistant": [
       "normal",
@@ -10980,11 +10980,11 @@ export default {
     },
     "spawn-chance": "0.022",
     "stats": {
-      "base-attack": "222",
-      "base-defense": "171",
-      "base-stamina": "233",
-      "max-cp": "3179",
-      "max-hp": "195"
+      "attack": "222",
+      "defense": "171",
+      "stamina": "233",
+      "cp": "3179",
+      "hp": "195"
     },
     "resistant": [
       "normal",
@@ -11083,11 +11083,11 @@ export default {
     },
     "spawn-chance": "0.013",
     "stats": {
-      "base-attack": "60",
-      "base-defense": "128",
-      "base-stamina": "487",
-      "max-cp": "1255",
-      "max-hp": "396"
+      "attack": "60",
+      "defense": "128",
+      "stamina": "487",
+      "cp": "1255",
+      "hp": "396"
     },
     "resistant": [
       "ghost"
@@ -11179,11 +11179,11 @@ export default {
     },
     "spawn-chance": "0.228",
     "stats": {
-      "base-attack": "183",
-      "base-defense": "169",
-      "base-stamina": "163",
-      "max-cp": "2238",
-      "max-hp": "140"
+      "attack": "183",
+      "defense": "169",
+      "stamina": "163",
+      "cp": "2238",
+      "hp": "140"
     },
     "resistant": [
       "water",
@@ -11274,11 +11274,11 @@ export default {
     },
     "spawn-chance": "0.0086",
     "stats": {
-      "base-attack": "181",
-      "base-defense": "165",
-      "base-stamina": "233",
-      "max-cp": "2586",
-      "max-hp": "195"
+      "attack": "181",
+      "defense": "165",
+      "stamina": "233",
+      "cp": "2586",
+      "hp": "195"
     },
     "resistant": [
       "ghost"
@@ -11368,11 +11368,11 @@ export default {
     },
     "spawn-chance": "1.13",
     "stats": {
-      "base-attack": "129",
-      "base-defense": "103",
-      "base-stamina": "102",
-      "max-cp": "1056",
-      "max-hp": "92"
+      "attack": "129",
+      "defense": "103",
+      "stamina": "102",
+      "cp": "1056",
+      "hp": "92"
     },
     "resistant": [
       "fire",
@@ -11466,11 +11466,11 @@ export default {
     },
     "spawn-chance": "0.034",
     "stats": {
-      "base-attack": "187",
-      "base-defense": "156",
-      "base-stamina": "146",
-      "max-cp": "2093",
-      "max-hp": "127"
+      "attack": "187",
+      "defense": "156",
+      "stamina": "146",
+      "cp": "2093",
+      "hp": "127"
     },
     "resistant": [
       "fire",
@@ -11571,11 +11571,11 @@ export default {
     },
     "spawn-chance": "2.18",
     "stats": {
-      "base-attack": "123",
-      "base-defense": "110",
-      "base-stamina": "128",
-      "max-cp": "1152",
-      "max-hp": "113"
+      "attack": "123",
+      "defense": "110",
+      "stamina": "128",
+      "cp": "1152",
+      "hp": "113"
     },
     "resistant": [
       "fire",
@@ -11660,11 +11660,11 @@ export default {
     },
     "spawn-chance": "0.08",
     "stats": {
-      "base-attack": "175",
-      "base-defense": "147",
-      "base-stamina": "190",
-      "max-cp": "2162",
-      "max-hp": "162"
+      "attack": "175",
+      "defense": "147",
+      "stamina": "190",
+      "cp": "2162",
+      "hp": "162"
     },
     "resistant": [
       "fire",
@@ -11763,11 +11763,11 @@ export default {
     },
     "spawn-chance": "1.95",
     "stats": {
-      "base-attack": "137",
-      "base-defense": "112",
-      "base-stamina": "102",
-      "max-cp": "1157",
-      "max-hp": "92"
+      "attack": "137",
+      "defense": "112",
+      "stamina": "102",
+      "cp": "1157",
+      "hp": "92"
     },
     "resistant": [
       "fire",
@@ -11860,11 +11860,11 @@ export default {
     },
     "spawn-chance": "0.034",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "184",
-      "base-stamina": "155",
-      "max-cp": "2584",
-      "max-hp": "134"
+      "attack": "210",
+      "defense": "184",
+      "stamina": "155",
+      "cp": "2584",
+      "hp": "134"
     },
     "resistant": [
       "fire",
@@ -11975,11 +11975,11 @@ export default {
     },
     "spawn-chance": "0.0031",
     "stats": {
-      "base-attack": "192",
-      "base-defense": "205",
-      "base-stamina": "120",
-      "max-cp": "2228",
-      "max-hp": "106"
+      "attack": "192",
+      "defense": "205",
+      "stamina": "120",
+      "cp": "2228",
+      "hp": "106"
     },
     "resistant": [
       "fighting",
@@ -12065,11 +12065,11 @@ export default {
     },
     "spawn-chance": "0.14",
     "stats": {
-      "base-attack": "218",
-      "base-defense": "170",
-      "base-stamina": "172",
-      "max-cp": "2706",
-      "max-hp": "147"
+      "attack": "218",
+      "defense": "170",
+      "stamina": "172",
+      "cp": "2706",
+      "hp": "147"
     },
     "resistant": [
       "grass",
@@ -12176,11 +12176,11 @@ export default {
     },
     "spawn-chance": "0.35",
     "stats": {
-      "base-attack": "223",
-      "base-defense": "151",
-      "base-stamina": "163",
-      "max-cp": "2555",
-      "max-hp": "140"
+      "attack": "223",
+      "defense": "151",
+      "stamina": "163",
+      "cp": "2555",
+      "hp": "140"
     },
     "resistant": [
       "ice",
@@ -12281,11 +12281,11 @@ export default {
     },
     "spawn-chance": "0.074",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "158",
-      "base-stamina": "163",
-      "max-cp": "2334",
-      "max-hp": "140"
+      "attack": "198",
+      "defense": "158",
+      "stamina": "163",
+      "cp": "2334",
+      "hp": "140"
     },
     "resistant": [
       "electric",
@@ -12377,11 +12377,11 @@ export default {
     },
     "spawn-chance": "0.1",
     "stats": {
-      "base-attack": "206",
-      "base-defense": "154",
-      "base-stamina": "163",
-      "max-cp": "2394",
-      "max-hp": "140"
+      "attack": "206",
+      "defense": "154",
+      "stamina": "163",
+      "cp": "2394",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -12477,11 +12477,11 @@ export default {
     },
     "spawn-chance": "0.99",
     "stats": {
-      "base-attack": "238",
-      "base-defense": "182",
-      "base-stamina": "163",
-      "max-cp": "2959",
-      "max-hp": "140"
+      "attack": "238",
+      "defense": "182",
+      "stamina": "163",
+      "cp": "2959",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -12576,11 +12576,11 @@ export default {
     },
     "spawn-chance": "0.12",
     "stats": {
-      "base-attack": "198",
-      "base-defense": "183",
-      "base-stamina": "181",
-      "max-cp": "2620",
-      "max-hp": "154"
+      "attack": "198",
+      "defense": "183",
+      "stamina": "181",
+      "cp": "2620",
+      "hp": "154"
     },
     "resistant": [
       "ghost"
@@ -12656,11 +12656,11 @@ export default {
     },
     "spawn-chance": "4.78",
     "stats": {
-      "base-attack": "29",
-      "base-defense": "85",
-      "base-stamina": "85",
-      "max-cp": "274",
-      "max-hp": "79"
+      "attack": "29",
+      "defense": "85",
+      "stamina": "85",
+      "cp": "274",
+      "hp": "79"
     },
     "resistant": [
       "fire",
@@ -12723,11 +12723,11 @@ export default {
     },
     "spawn-chance": "0.0032",
     "stats": {
-      "base-attack": "237",
-      "base-defense": "186",
-      "base-stamina": "216",
-      "max-cp": "3391",
-      "max-hp": "182"
+      "attack": "237",
+      "defense": "186",
+      "stamina": "216",
+      "cp": "3391",
+      "hp": "182"
     },
     "resistant": [
       "fire",
@@ -12835,11 +12835,11 @@ export default {
     },
     "spawn-chance": "0.006",
     "stats": {
-      "base-attack": "165",
-      "base-defense": "174",
-      "base-stamina": "277",
-      "max-cp": "2641",
-      "max-hp": "230"
+      "attack": "165",
+      "defense": "174",
+      "stamina": "277",
+      "cp": "2641",
+      "hp": "230"
     },
     "resistant": [
       "water",
@@ -12933,11 +12933,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "91",
-      "base-defense": "91",
-      "base-stamina": "134",
-      "max-cp": "832",
-      "max-hp": "117"
+      "attack": "91",
+      "defense": "91",
+      "stamina": "134",
+      "cp": "832",
+      "hp": "117"
     },
     "resistant": [
       "ghost"
@@ -12990,11 +12990,11 @@ export default {
     },
     "spawn-chance": "2.75",
     "stats": {
-      "base-attack": "104",
-      "base-defense": "114",
-      "base-stamina": "146",
-      "max-cp": "1071",
-      "max-hp": "127"
+      "attack": "104",
+      "defense": "114",
+      "stamina": "146",
+      "cp": "1071",
+      "hp": "127"
     },
     "resistant": [
       "ghost"
@@ -13107,11 +13107,11 @@ export default {
     },
     "spawn-chance": "0.014",
     "stats": {
-      "base-attack": "205",
-      "base-defense": "161",
-      "base-stamina": "277",
-      "max-cp": "3114",
-      "max-hp": "230"
+      "attack": "205",
+      "defense": "161",
+      "stamina": "277",
+      "cp": "3114",
+      "hp": "230"
     },
     "resistant": [
       "fire",
@@ -13188,11 +13188,11 @@ export default {
     },
     "spawn-chance": "0.012",
     "stats": {
-      "base-attack": "232",
-      "base-defense": "182",
-      "base-stamina": "163",
-      "max-cp": "2888",
-      "max-hp": "140"
+      "attack": "232",
+      "defense": "182",
+      "stamina": "163",
+      "cp": "2888",
+      "hp": "140"
     },
     "resistant": [
       "electric",
@@ -13275,11 +13275,11 @@ export default {
     },
     "spawn-chance": "0.017",
     "stats": {
-      "base-attack": "246",
-      "base-defense": "179",
-      "base-stamina": "163",
-      "max-cp": "3029",
-      "max-hp": "140"
+      "attack": "246",
+      "defense": "179",
+      "stamina": "163",
+      "cp": "3029",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -13373,11 +13373,11 @@ export default {
     },
     "spawn-chance": "0.012",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "136",
-      "base-stamina": "163",
-      "max-cp": "1720",
-      "max-hp": "140"
+      "attack": "153",
+      "defense": "136",
+      "stamina": "163",
+      "cp": "1720",
+      "hp": "140"
     },
     "resistant": [
       "ghost"
@@ -13514,11 +13514,11 @@ export default {
     },
     "spawn-chance": "0.14",
     "stats": {
-      "base-attack": "155",
-      "base-defense": "153",
-      "base-stamina": "111",
-      "max-cp": "1544",
-      "max-hp": "99"
+      "attack": "155",
+      "defense": "153",
+      "stamina": "111",
+      "cp": "1544",
+      "hp": "99"
     },
     "resistant": [
       "normal",
@@ -13621,11 +13621,11 @@ export default {
     },
     "spawn-chance": "0.0061",
     "stats": {
-      "base-attack": "207",
-      "base-defense": "201",
-      "base-stamina": "172",
-      "max-cp": "2786",
-      "max-hp": "147"
+      "attack": "207",
+      "defense": "201",
+      "stamina": "172",
+      "cp": "2786",
+      "hp": "147"
     },
     "resistant": [
       "normal",
@@ -13728,11 +13728,11 @@ export default {
     },
     "spawn-chance": "0.1",
     "stats": {
-      "base-attack": "148",
-      "base-defense": "140",
-      "base-stamina": "102",
-      "max-cp": "1370",
-      "max-hp": "92"
+      "attack": "148",
+      "defense": "140",
+      "stamina": "102",
+      "cp": "1370",
+      "hp": "92"
     },
     "resistant": [
       "normal",
@@ -13821,11 +13821,11 @@ export default {
     },
     "spawn-chance": "0.0032",
     "stats": {
-      "base-attack": "220",
-      "base-defense": "186",
-      "base-stamina": "155",
-      "max-cp": "2713",
-      "max-hp": "134"
+      "attack": "220",
+      "defense": "186",
+      "stamina": "155",
+      "cp": "2713",
+      "hp": "134"
     },
     "resistant": [
       "normal",
@@ -13921,11 +13921,11 @@ export default {
     },
     "spawn-chance": "0.018",
     "stats": {
-      "base-attack": "221",
-      "base-defense": "159",
-      "base-stamina": "190",
-      "max-cp": "2783",
-      "max-hp": "162"
+      "attack": "221",
+      "defense": "159",
+      "stamina": "190",
+      "cp": "2783",
+      "hp": "162"
     },
     "resistant": [
       "normal",
@@ -14009,11 +14009,11 @@ export default {
     },
     "spawn-chance": "0.016",
     "stats": {
-      "base-attack": "190",
-      "base-defense": "169",
-      "base-stamina": "330",
-      "max-cp": "3225",
-      "max-hp": "272"
+      "attack": "190",
+      "defense": "169",
+      "stamina": "330",
+      "cp": "3225",
+      "hp": "272"
     },
     "resistant": [
       "ghost"
@@ -14102,11 +14102,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "192",
-      "base-defense": "236",
-      "base-stamina": "207",
-      "max-cp": "3051",
-      "max-hp": "175"
+      "attack": "192",
+      "defense": "236",
+      "stamina": "207",
+      "cp": "3051",
+      "hp": "175"
     },
     "resistant": [
       "grass",
@@ -14180,11 +14180,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "253",
-      "base-defense": "185",
-      "base-stamina": "207",
-      "max-cp": "3527",
-      "max-hp": "175"
+      "attack": "253",
+      "defense": "185",
+      "stamina": "207",
+      "cp": "3527",
+      "hp": "175"
     },
     "resistant": [
       "grass",
@@ -14266,11 +14266,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "251",
-      "base-defense": "181",
-      "base-stamina": "207",
-      "max-cp": "3465",
-      "max-hp": "175"
+      "attack": "251",
+      "defense": "181",
+      "stamina": "207",
+      "cp": "3465",
+      "hp": "175"
     },
     "resistant": [
       "fire",
@@ -14344,11 +14344,11 @@ export default {
     },
     "spawn-chance": "0.3",
     "stats": {
-      "base-attack": "119",
-      "base-defense": "91",
-      "base-stamina": "121",
-      "max-cp": "1004",
-      "max-hp": "107"
+      "attack": "119",
+      "defense": "91",
+      "stamina": "121",
+      "cp": "1004",
+      "hp": "107"
     },
     "resistant": [
       "fire",
@@ -14439,11 +14439,11 @@ export default {
     },
     "spawn-chance": "0.02",
     "stats": {
-      "base-attack": "163",
-      "base-defense": "135",
-      "base-stamina": "156",
-      "max-cp": "1780",
-      "max-hp": "135"
+      "attack": "163",
+      "defense": "135",
+      "stamina": "156",
+      "cp": "1780",
+      "hp": "135"
     },
     "resistant": [
       "fire",
@@ -14535,11 +14535,11 @@ export default {
     },
     "spawn-chance": "0.0011",
     "stats": {
-      "base-attack": "263",
-      "base-defense": "198",
-      "base-stamina": "209",
-      "max-cp": "3792",
-      "max-hp": "177"
+      "attack": "263",
+      "defense": "198",
+      "stamina": "209",
+      "cp": "3792",
+      "hp": "177"
     },
     "resistant": [
       "fire",
@@ -14653,11 +14653,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "300",
-      "base-defense": "182",
-      "base-stamina": "214",
-      "max-cp": "4178",
-      "max-hp": "180"
+      "attack": "300",
+      "defense": "182",
+      "stamina": "214",
+      "cp": "4178",
+      "hp": "180"
     },
     "resistant": [
       "fighting",
@@ -14743,11 +14743,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "210",
-      "base-stamina": "225",
-      "max-cp": "3265",
-      "max-hp": "189"
+      "attack": "210",
+      "defense": "210",
+      "stamina": "225",
+      "cp": "3265",
+      "hp": "189"
     },
     "resistant": [
       "fighting",
@@ -14853,11 +14853,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "92",
-      "base-defense": "122",
-      "base-stamina": "128",
-      "max-cp": "935",
-      "max-hp": "113"
+      "attack": "92",
+      "defense": "122",
+      "stamina": "128",
+      "cp": "935",
+      "hp": "113"
     },
     "resistant": [
       "water",
@@ -14949,11 +14949,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "122",
-      "base-defense": "155",
-      "base-stamina": "155",
-      "max-cp": "1454",
-      "max-hp": "134"
+      "attack": "122",
+      "defense": "155",
+      "stamina": "155",
+      "cp": "1454",
+      "hp": "134"
     },
     "resistant": [
       "water",
@@ -15045,11 +15045,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "168",
-      "base-defense": "202",
-      "base-stamina": "190",
-      "max-cp": "2410",
-      "max-hp": "162"
+      "attack": "168",
+      "defense": "202",
+      "stamina": "190",
+      "cp": "2410",
+      "hp": "162"
     },
     "resistant": [
       "water",
@@ -15141,11 +15141,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "116",
-      "base-defense": "93",
-      "base-stamina": "118",
-      "max-cp": "980",
-      "max-hp": "105"
+      "attack": "116",
+      "defense": "93",
+      "stamina": "118",
+      "cp": "980",
+      "hp": "105"
     },
     "resistant": [
       "fire",
@@ -15237,11 +15237,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "158",
-      "base-defense": "126",
-      "base-stamina": "151",
-      "max-cp": "1653",
-      "max-hp": "131"
+      "attack": "158",
+      "defense": "126",
+      "stamina": "151",
+      "cp": "1653",
+      "hp": "131"
     },
     "resistant": [
       "fire",
@@ -15333,11 +15333,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "223",
-      "base-defense": "173",
-      "base-stamina": "186",
-      "max-cp": "2889",
-      "max-hp": "158"
+      "attack": "223",
+      "defense": "173",
+      "stamina": "186",
+      "cp": "2889",
+      "hp": "158"
     },
     "resistant": [
       "fire",
@@ -15429,11 +15429,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "117",
-      "base-defense": "109",
-      "base-stamina": "137",
-      "max-cp": "1131",
-      "max-hp": "120"
+      "attack": "117",
+      "defense": "109",
+      "stamina": "137",
+      "cp": "1131",
+      "hp": "120"
     },
     "resistant": [
       "fire",
@@ -15523,11 +15523,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "150",
-      "base-defense": "142",
-      "base-stamina": "163",
-      "max-cp": "1722",
-      "max-hp": "140"
+      "attack": "150",
+      "defense": "142",
+      "stamina": "163",
+      "cp": "1722",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -15617,11 +15617,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "205",
-      "base-defense": "188",
-      "base-stamina": "198",
-      "max-cp": "2857",
-      "max-hp": "168"
+      "attack": "205",
+      "defense": "188",
+      "stamina": "198",
+      "cp": "2857",
+      "hp": "168"
     },
     "resistant": [
       "fire",
@@ -15711,11 +15711,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "79",
-      "base-defense": "73",
-      "base-stamina": "111",
-      "max-cp": "618",
-      "max-hp": "99"
+      "attack": "79",
+      "defense": "73",
+      "stamina": "111",
+      "cp": "618",
+      "hp": "99"
     },
     "resistant": [
       "ghost"
@@ -15796,11 +15796,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "125",
-      "base-stamina": "198",
-      "max-cp": "1758",
-      "max-hp": "168"
+      "attack": "148",
+      "defense": "125",
+      "stamina": "198",
+      "cp": "1758",
+      "hp": "168"
     },
     "resistant": [
       "ghost"
@@ -15882,11 +15882,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "67",
-      "base-defense": "88",
-      "base-stamina": "155",
-      "max-cp": "677",
-      "max-hp": "134"
+      "attack": "67",
+      "defense": "88",
+      "stamina": "155",
+      "cp": "677",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -15958,11 +15958,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "145",
-      "base-defense": "156",
-      "base-stamina": "225",
-      "max-cp": "2024",
-      "max-hp": "189"
+      "attack": "145",
+      "defense": "156",
+      "stamina": "225",
+      "cp": "2024",
+      "hp": "189"
     },
     "resistant": [
       "grass",
@@ -16049,11 +16049,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "72",
-      "base-defense": "118",
-      "base-stamina": "120",
-      "max-cp": "728",
-      "max-hp": "106"
+      "attack": "72",
+      "defense": "118",
+      "stamina": "120",
+      "cp": "728",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -16141,11 +16141,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "107",
-      "base-defense": "179",
-      "base-stamina": "146",
-      "max-cp": "1346",
-      "max-hp": "127"
+      "attack": "107",
+      "defense": "179",
+      "stamina": "146",
+      "cp": "1346",
+      "hp": "127"
     },
     "resistant": [
       "grass",
@@ -16233,11 +16233,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "105",
-      "base-defense": "73",
-      "base-stamina": "120",
-      "max-cp": "816",
-      "max-hp": "106"
+      "attack": "105",
+      "defense": "73",
+      "stamina": "120",
+      "cp": "816",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -16326,11 +16326,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "161",
-      "base-defense": "124",
-      "base-stamina": "172",
-      "max-cp": "1772",
-      "max-hp": "147"
+      "attack": "161",
+      "defense": "124",
+      "stamina": "172",
+      "cp": "1772",
+      "hp": "147"
     },
     "resistant": [
       "grass",
@@ -16419,11 +16419,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "194",
-      "base-defense": "178",
-      "base-stamina": "198",
-      "max-cp": "2646",
-      "max-hp": "168"
+      "attack": "194",
+      "defense": "178",
+      "stamina": "198",
+      "cp": "2646",
+      "hp": "168"
     },
     "resistant": [
       "grass",
@@ -16517,11 +16517,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "106",
-      "base-defense": "97",
-      "base-stamina": "181",
-      "max-cp": "1119",
-      "max-hp": "154"
+      "attack": "106",
+      "defense": "97",
+      "stamina": "181",
+      "cp": "1119",
+      "hp": "154"
     },
     "resistant": [
       "fire",
@@ -16608,11 +16608,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "146",
-      "base-defense": "137",
-      "base-stamina": "268",
-      "max-cp": "2085",
-      "max-hp": "223"
+      "attack": "146",
+      "defense": "137",
+      "stamina": "268",
+      "cp": "2085",
+      "hp": "223"
     },
     "resistant": [
       "fire",
@@ -16698,11 +16698,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "77",
-      "base-defense": "53",
-      "base-stamina": "85",
-      "max-cp": "473",
-      "max-hp": "79"
+      "attack": "77",
+      "defense": "53",
+      "stamina": "85",
+      "cp": "473",
+      "hp": "79"
     },
     "resistant": [
       "electric",
@@ -16790,11 +16790,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "75",
-      "base-defense": "79",
-      "base-stamina": "137",
-      "max-cp": "671",
-      "max-hp": "120"
+      "attack": "75",
+      "defense": "79",
+      "stamina": "137",
+      "cp": "671",
+      "hp": "120"
     },
     "resistant": [
       "fighting",
@@ -16899,11 +16899,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "69",
-      "base-defense": "32",
-      "base-stamina": "207",
-      "max-cp": "535",
-      "max-hp": "175"
+      "attack": "69",
+      "defense": "32",
+      "stamina": "207",
+      "cp": "535",
+      "hp": "175"
     },
     "resistant": [
       "bug",
@@ -17000,11 +17000,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "67",
-      "base-defense": "116",
-      "base-stamina": "111",
-      "max-cp": "657",
-      "max-hp": "99"
+      "attack": "67",
+      "defense": "116",
+      "stamina": "111",
+      "cp": "657",
+      "hp": "99"
     },
     "resistant": [
       "fighting",
@@ -17106,11 +17106,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "139",
-      "base-defense": "181",
-      "base-stamina": "146",
-      "max-cp": "1708",
-      "max-hp": "127"
+      "attack": "139",
+      "defense": "181",
+      "stamina": "146",
+      "cp": "1708",
+      "hp": "127"
     },
     "resistant": [
       "grass",
@@ -17208,11 +17208,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "134",
-      "base-defense": "89",
-      "base-stamina": "120",
-      "max-cp": "1102",
-      "max-hp": "106"
+      "attack": "134",
+      "defense": "89",
+      "stamina": "120",
+      "cp": "1102",
+      "hp": "106"
     },
     "resistant": [
       "grass",
@@ -17300,11 +17300,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "192",
-      "base-defense": "146",
-      "base-stamina": "163",
-      "max-cp": "2188",
-      "max-hp": "140"
+      "attack": "192",
+      "defense": "146",
+      "stamina": "163",
+      "cp": "2188",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -17391,11 +17391,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "114",
-      "base-defense": "79",
-      "base-stamina": "146",
-      "max-cp": "991",
-      "max-hp": "127"
+      "attack": "114",
+      "defense": "79",
+      "stamina": "146",
+      "cp": "991",
+      "hp": "127"
     },
     "resistant": [
       "electric",
@@ -17483,11 +17483,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "145",
-      "base-defense": "109",
-      "base-stamina": "172",
-      "max-cp": "1521",
-      "max-hp": "147"
+      "attack": "145",
+      "defense": "109",
+      "stamina": "172",
+      "cp": "1521",
+      "hp": "147"
     },
     "resistant": [
       "electric",
@@ -17575,11 +17575,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "211",
-      "base-defense": "169",
-      "base-stamina": "207",
-      "max-cp": "2852",
-      "max-hp": "175"
+      "attack": "211",
+      "defense": "169",
+      "stamina": "207",
+      "cp": "2852",
+      "hp": "175"
     },
     "resistant": [
       "electric",
@@ -17667,11 +17667,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "169",
-      "base-defense": "186",
-      "base-stamina": "181",
-      "max-cp": "2281",
-      "max-hp": "154"
+      "attack": "169",
+      "defense": "186",
+      "stamina": "181",
+      "cp": "2281",
+      "hp": "154"
     },
     "resistant": [
       "water",
@@ -17768,11 +17768,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "37",
-      "base-defense": "93",
-      "base-stamina": "172",
-      "max-cp": "461",
-      "max-hp": "147"
+      "attack": "37",
+      "defense": "93",
+      "stamina": "172",
+      "cp": "461",
+      "hp": "147"
     },
     "resistant": [
       "fire",
@@ -17865,11 +17865,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "112",
-      "base-defense": "152",
-      "base-stamina": "225",
-      "max-cp": "1588",
-      "max-hp": "189"
+      "attack": "112",
+      "defense": "152",
+      "stamina": "225",
+      "cp": "1588",
+      "hp": "189"
     },
     "resistant": [
       "fire",
@@ -17961,11 +17961,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "167",
-      "base-defense": "176",
-      "base-stamina": "172",
-      "max-cp": "2148",
-      "max-hp": "147"
+      "attack": "167",
+      "defense": "176",
+      "stamina": "172",
+      "cp": "2148",
+      "hp": "147"
     },
     "resistant": [
       "normal",
@@ -18052,11 +18052,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "174",
-      "base-defense": "179",
-      "base-stamina": "207",
-      "max-cp": "2449",
-      "max-hp": "175"
+      "attack": "174",
+      "defense": "179",
+      "stamina": "207",
+      "cp": "2449",
+      "hp": "175"
     },
     "resistant": [
       "fire",
@@ -18151,11 +18151,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "67",
-      "base-defense": "94",
-      "base-stamina": "111",
-      "max-cp": "600",
-      "max-hp": "99"
+      "attack": "67",
+      "defense": "94",
+      "stamina": "111",
+      "cp": "600",
+      "hp": "99"
     },
     "resistant": [
       "water",
@@ -18248,11 +18248,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "91",
-      "base-defense": "120",
-      "base-stamina": "146",
-      "max-cp": "976",
-      "max-hp": "127"
+      "attack": "91",
+      "defense": "120",
+      "stamina": "146",
+      "cp": "976",
+      "hp": "127"
     },
     "resistant": [
       "water",
@@ -18345,11 +18345,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "183",
-      "base-stamina": "181",
-      "max-cp": "1636",
-      "max-hp": "154"
+      "attack": "118",
+      "defense": "183",
+      "stamina": "181",
+      "cp": "1636",
+      "hp": "154"
     },
     "resistant": [
       "water",
@@ -18441,11 +18441,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "136",
-      "base-defense": "112",
-      "base-stamina": "146",
-      "max-cp": "1348",
-      "max-hp": "127"
+      "attack": "136",
+      "defense": "112",
+      "stamina": "146",
+      "cp": "1348",
+      "hp": "127"
     },
     "resistant": [
       "ghost"
@@ -18521,11 +18521,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "55",
-      "base-defense": "55",
-      "base-stamina": "102",
-      "max-cp": "395",
-      "max-hp": "92"
+      "attack": "55",
+      "defense": "55",
+      "stamina": "102",
+      "cp": "395",
+      "hp": "92"
     },
     "resistant": [
       "water",
@@ -18616,11 +18616,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "185",
-      "base-defense": "135",
-      "base-stamina": "181",
-      "max-cp": "2141",
-      "max-hp": "154"
+      "attack": "185",
+      "defense": "135",
+      "stamina": "181",
+      "cp": "2141",
+      "hp": "154"
     },
     "resistant": [
       "water",
@@ -18712,11 +18712,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "154",
-      "base-defense": "94",
-      "base-stamina": "163",
-      "max-cp": "1470",
-      "max-hp": "140"
+      "attack": "154",
+      "defense": "94",
+      "stamina": "163",
+      "cp": "1470",
+      "hp": "140"
     },
     "resistant": [
       "grass",
@@ -18799,11 +18799,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "75",
-      "base-defense": "66",
-      "base-stamina": "146",
-      "max-cp": "641",
-      "max-hp": "127"
+      "attack": "75",
+      "defense": "66",
+      "stamina": "146",
+      "cp": "641",
+      "hp": "127"
     },
     "resistant": [
       "fire",
@@ -18888,11 +18888,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "152",
-      "base-defense": "143",
-      "base-stamina": "216",
-      "max-cp": "1992",
-      "max-hp": "182"
+      "attack": "152",
+      "defense": "143",
+      "stamina": "216",
+      "cp": "1992",
+      "hp": "182"
     },
     "resistant": [
       "fire",
@@ -18976,11 +18976,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "261",
-      "base-defense": "175",
-      "base-stamina": "163",
-      "max-cp": "3170",
-      "max-hp": "140"
+      "attack": "261",
+      "defense": "175",
+      "stamina": "163",
+      "cp": "3170",
+      "hp": "140"
     },
     "resistant": [
       "fighting",
@@ -19064,11 +19064,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "126",
-      "base-defense": "240",
-      "base-stamina": "216",
-      "max-cp": "2137",
-      "max-hp": "182"
+      "attack": "126",
+      "defense": "240",
+      "stamina": "216",
+      "cp": "2137",
+      "hp": "182"
     },
     "resistant": [
       "psychic",
@@ -19147,11 +19147,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "175",
-      "base-defense": "87",
-      "base-stamina": "155",
-      "max-cp": "1562",
-      "max-hp": "134"
+      "attack": "175",
+      "defense": "87",
+      "stamina": "155",
+      "cp": "1562",
+      "hp": "134"
     },
     "resistant": [
       "grass",
@@ -19244,11 +19244,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "177",
-      "base-defense": "180",
-      "base-stamina": "216",
-      "max-cp": "2545",
-      "max-hp": "182"
+      "attack": "177",
+      "defense": "180",
+      "stamina": "216",
+      "cp": "2545",
+      "hp": "182"
     },
     "resistant": [
       "fire",
@@ -19340,11 +19340,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "167",
-      "base-defense": "154",
-      "base-stamina": "155",
-      "max-cp": "1926",
-      "max-hp": "134"
+      "attack": "167",
+      "defense": "154",
+      "stamina": "155",
+      "cp": "1926",
+      "hp": "134"
     },
     "resistant": [
       "normal",
@@ -19433,11 +19433,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "136",
-      "base-defense": "91",
-      "base-stamina": "134",
-      "max-cp": "1185",
-      "max-hp": "117"
+      "attack": "136",
+      "defense": "91",
+      "stamina": "134",
+      "cp": "1185",
+      "hp": "117"
     },
     "resistant": [
       "fighting",
@@ -19493,11 +19493,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "60",
-      "base-defense": "106",
-      "base-stamina": "382",
-      "max-cp": "1026",
-      "max-hp": "313"
+      "attack": "60",
+      "defense": "106",
+      "stamina": "382",
+      "cp": "1026",
+      "hp": "313"
     },
     "resistant": [
       "fighting",
@@ -19567,11 +19567,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "182",
-      "base-defense": "133",
-      "base-stamina": "172",
-      "max-cp": "2046",
-      "max-hp": "147"
+      "attack": "182",
+      "defense": "133",
+      "stamina": "172",
+      "cp": "2046",
+      "hp": "147"
     },
     "resistant": [
       "psychic"
@@ -19648,11 +19648,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "108",
-      "base-defense": "122",
-      "base-stamina": "137",
-      "max-cp": "1108",
-      "max-hp": "120"
+      "attack": "108",
+      "defense": "122",
+      "stamina": "137",
+      "cp": "1108",
+      "hp": "120"
     },
     "resistant": [
       "grass",
@@ -19738,11 +19738,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "161",
-      "base-defense": "205",
-      "base-stamina": "181",
-      "max-cp": "2282",
-      "max-hp": "154"
+      "attack": "161",
+      "defense": "205",
+      "stamina": "181",
+      "cp": "2282",
+      "hp": "154"
     },
     "resistant": [
       "normal",
@@ -19827,11 +19827,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "131",
-      "base-defense": "128",
-      "base-stamina": "225",
-      "max-cp": "1689",
-      "max-hp": "189"
+      "attack": "131",
+      "defense": "128",
+      "stamina": "225",
+      "cp": "1689",
+      "hp": "189"
     },
     "resistant": [
       "ghost"
@@ -19908,11 +19908,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "143",
-      "base-defense": "184",
-      "base-stamina": "163",
-      "max-cp": "1857",
-      "max-hp": "140"
+      "attack": "143",
+      "defense": "184",
+      "stamina": "163",
+      "cp": "1857",
+      "hp": "140"
     },
     "resistant": [
       "fighting",
@@ -20002,11 +20002,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "272",
-      "base-stamina": "181",
-      "max-cp": "2414",
-      "max-hp": "154"
+      "attack": "148",
+      "defense": "272",
+      "stamina": "181",
+      "cp": "2414",
+      "hp": "154"
     },
     "resistant": [
       "normal",
@@ -20098,11 +20098,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "137",
-      "base-defense": "85",
-      "base-stamina": "155",
-      "max-cp": "1237",
-      "max-hp": "134"
+      "attack": "137",
+      "defense": "85",
+      "stamina": "155",
+      "cp": "1237",
+      "hp": "134"
     },
     "resistant": [
       "fighting",
@@ -20187,11 +20187,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "212",
-      "base-defense": "131",
-      "base-stamina": "207",
-      "max-cp": "2552",
-      "max-hp": "175"
+      "attack": "212",
+      "defense": "131",
+      "stamina": "207",
+      "cp": "2552",
+      "hp": "175"
     },
     "resistant": [
       "fighting",
@@ -20277,11 +20277,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "184",
-      "base-defense": "138",
-      "base-stamina": "163",
-      "max-cp": "2051",
-      "max-hp": "140"
+      "attack": "184",
+      "defense": "138",
+      "stamina": "163",
+      "cp": "2051",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -20364,11 +20364,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "236",
-      "base-defense": "181",
-      "base-stamina": "172",
-      "max-cp": "3001",
-      "max-hp": "147"
+      "attack": "236",
+      "defense": "181",
+      "stamina": "172",
+      "cp": "3001",
+      "hp": "147"
     },
     "resistant": [
       "normal",
@@ -20458,11 +20458,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "17",
-      "base-defense": "396",
-      "base-stamina": "85",
-      "max-cp": "405",
-      "max-hp": "79"
+      "attack": "17",
+      "defense": "396",
+      "stamina": "85",
+      "cp": "405",
+      "hp": "79"
     },
     "resistant": [
       "normal",
@@ -20542,11 +20542,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "234",
-      "base-defense": "179",
-      "base-stamina": "190",
-      "max-cp": "3101",
-      "max-hp": "162"
+      "attack": "234",
+      "defense": "179",
+      "stamina": "190",
+      "cp": "3101",
+      "hp": "162"
     },
     "resistant": [
       "grass",
@@ -20630,11 +20630,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "189",
-      "base-defense": "146",
-      "base-stamina": "146",
-      "max-cp": "2051",
-      "max-hp": "127"
+      "attack": "189",
+      "defense": "146",
+      "stamina": "146",
+      "cp": "2051",
+      "hp": "127"
     },
     "resistant": [
       "ice",
@@ -20725,11 +20725,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "142",
-      "base-defense": "93",
-      "base-stamina": "155",
-      "max-cp": "1328",
-      "max-hp": "134"
+      "attack": "142",
+      "defense": "93",
+      "stamina": "155",
+      "cp": "1328",
+      "hp": "134"
     },
     "resistant": [
       "ghost"
@@ -20810,11 +20810,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "236",
-      "base-defense": "144",
-      "base-stamina": "207",
-      "max-cp": "2945",
-      "max-hp": "175"
+      "attack": "236",
+      "defense": "144",
+      "stamina": "207",
+      "cp": "2945",
+      "hp": "175"
     },
     "resistant": [
       "ghost"
@@ -20895,11 +20895,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "71",
-      "base-stamina": "120",
-      "max-cp": "895",
-      "max-hp": "106"
+      "attack": "118",
+      "defense": "71",
+      "stamina": "120",
+      "cp": "895",
+      "hp": "106"
     },
     "resistant": [
       "fire",
@@ -20987,11 +20987,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "139",
-      "base-defense": "191",
-      "base-stamina": "137",
-      "max-cp": "1702",
-      "max-hp": "120"
+      "attack": "139",
+      "defense": "191",
+      "stamina": "137",
+      "cp": "1702",
+      "hp": "120"
     },
     "resistant": [
       "normal",
@@ -21080,11 +21080,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "90",
-      "base-defense": "69",
-      "base-stamina": "137",
-      "max-cp": "741",
-      "max-hp": "120"
+      "attack": "90",
+      "defense": "69",
+      "stamina": "137",
+      "cp": "741",
+      "hp": "120"
     },
     "resistant": [
       "electric",
@@ -21170,11 +21170,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "181",
-      "base-defense": "138",
-      "base-stamina": "225",
-      "max-cp": "2345",
-      "max-hp": "189"
+      "attack": "181",
+      "defense": "138",
+      "stamina": "225",
+      "cp": "2345",
+      "hp": "189"
     },
     "resistant": [
       "electric",
@@ -21260,11 +21260,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "118",
-      "base-defense": "156",
-      "base-stamina": "146",
-      "max-cp": "1378",
-      "max-hp": "127"
+      "attack": "118",
+      "defense": "156",
+      "stamina": "146",
+      "cp": "1378",
+      "hp": "127"
     },
     "resistant": [
       "normal",
@@ -21347,11 +21347,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "127",
-      "base-defense": "69",
-      "base-stamina": "111",
-      "max-cp": "912",
-      "max-hp": "99"
+      "attack": "127",
+      "defense": "69",
+      "stamina": "111",
+      "cp": "912",
+      "hp": "99"
     },
     "resistant": [
       "fire",
@@ -21436,11 +21436,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "197",
-      "base-defense": "141",
-      "base-stamina": "181",
-      "max-cp": "2315",
-      "max-hp": "154"
+      "attack": "197",
+      "defense": "141",
+      "stamina": "181",
+      "cp": "2315",
+      "hp": "154"
     },
     "resistant": [
       "fire",
@@ -21526,11 +21526,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "128",
-      "base-defense": "90",
-      "base-stamina": "128",
-      "max-cp": "1094",
-      "max-hp": "113"
+      "attack": "128",
+      "defense": "90",
+      "stamina": "128",
+      "cp": "1094",
+      "hp": "113"
     },
     "resistant": [
       "grass",
@@ -21612,11 +21612,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "226",
-      "base-stamina": "163",
-      "max-cp": "2108",
-      "max-hp": "140"
+      "attack": "148",
+      "defense": "226",
+      "stamina": "163",
+      "cp": "2108",
+      "hp": "140"
     },
     "resistant": [
       "fire",
@@ -21703,11 +21703,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "148",
-      "base-defense": "226",
-      "base-stamina": "163",
-      "max-cp": "2108",
-      "max-hp": "140"
+      "attack": "148",
+      "defense": "226",
+      "stamina": "163",
+      "cp": "2108",
+      "hp": "140"
     },
     "resistant": [
       "normal",
@@ -21789,11 +21789,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "152",
-      "base-defense": "83",
-      "base-stamina": "128",
-      "max-cp": "1234",
-      "max-hp": "113"
+      "attack": "152",
+      "defense": "83",
+      "stamina": "128",
+      "cp": "1234",
+      "hp": "113"
     },
     "resistant": [
       "fire",
@@ -21882,11 +21882,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "224",
-      "base-defense": "144",
-      "base-stamina": "181",
-      "max-cp": "2635",
-      "max-hp": "154"
+      "attack": "224",
+      "defense": "144",
+      "stamina": "181",
+      "cp": "2635",
+      "hp": "154"
     },
     "resistant": [
       "fire",
@@ -21975,11 +21975,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "194",
-      "base-defense": "194",
-      "base-stamina": "181",
-      "max-cp": "2641",
-      "max-hp": "154"
+      "attack": "194",
+      "defense": "194",
+      "stamina": "181",
+      "cp": "2641",
+      "hp": "154"
     },
     "resistant": [
       "fire",
@@ -22072,11 +22072,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "107",
-      "base-defense": "98",
-      "base-stamina": "207",
-      "max-cp": "1206",
-      "max-hp": "175"
+      "attack": "107",
+      "defense": "98",
+      "stamina": "207",
+      "cp": "1206",
+      "hp": "175"
     },
     "resistant": [
       "electric",
@@ -22161,11 +22161,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "214",
-      "base-defense": "185",
-      "base-stamina": "207",
-      "max-cp": "3013",
-      "max-hp": "175"
+      "attack": "214",
+      "defense": "185",
+      "stamina": "207",
+      "cp": "3013",
+      "hp": "175"
     },
     "resistant": [
       "electric",
@@ -22250,11 +22250,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "198",
-      "base-defense": "180",
-      "base-stamina": "198",
-      "max-cp": "2711",
-      "max-hp": "168"
+      "attack": "198",
+      "defense": "180",
+      "stamina": "198",
+      "cp": "2711",
+      "hp": "168"
     },
     "resistant": [
       "ghost"
@@ -22348,11 +22348,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "192",
-      "base-defense": "131",
-      "base-stamina": "177",
-      "max-cp": "2164",
-      "max-hp": "151"
+      "attack": "192",
+      "defense": "131",
+      "stamina": "177",
+      "cp": "2164",
+      "hp": "151"
     },
     "resistant": [
       "ghost"
@@ -22428,11 +22428,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "40",
-      "base-defense": "83",
-      "base-stamina": "146",
-      "max-cp": "431",
-      "max-hp": "127"
+      "attack": "40",
+      "defense": "83",
+      "stamina": "146",
+      "cp": "431",
+      "hp": "127"
     },
     "resistant": [
       "ghost"
@@ -22485,11 +22485,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "64",
-      "base-defense": "64",
-      "base-stamina": "111",
-      "max-cp": "492",
-      "max-hp": "99"
+      "attack": "64",
+      "defense": "64",
+      "stamina": "111",
+      "cp": "492",
+      "hp": "99"
     },
     "resistant": [
       "bug",
@@ -22586,11 +22586,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "173",
-      "base-defense": "207",
-      "base-stamina": "137",
-      "max-cp": "2156",
-      "max-hp": "120"
+      "attack": "173",
+      "defense": "207",
+      "stamina": "137",
+      "cp": "2156",
+      "hp": "120"
     },
     "resistant": [
       "bug",
@@ -22676,11 +22676,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "153",
-      "base-defense": "91",
-      "base-stamina": "128",
-      "max-cp": "1291",
-      "max-hp": "113"
+      "attack": "153",
+      "defense": "91",
+      "stamina": "128",
+      "cp": "1291",
+      "hp": "113"
     },
     "resistant": [
       "ice",
@@ -22772,11 +22772,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "135",
-      "base-defense": "101",
-      "base-stamina": "128",
-      "max-cp": "1206",
-      "max-hp": "113"
+      "attack": "135",
+      "defense": "101",
+      "stamina": "128",
+      "cp": "1206",
+      "hp": "113"
     },
     "resistant": [
       "electric",
@@ -22875,11 +22875,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "151",
-      "base-defense": "99",
-      "base-stamina": "128",
-      "max-cp": "1323",
-      "max-hp": "113"
+      "attack": "151",
+      "defense": "99",
+      "stamina": "128",
+      "cp": "1323",
+      "hp": "113"
     },
     "resistant": [
       "fire",
@@ -22982,11 +22982,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "157",
-      "base-defense": "193",
-      "base-stamina": "216",
-      "max-cp": "2354",
-      "max-hp": "182"
+      "attack": "157",
+      "defense": "193",
+      "stamina": "216",
+      "cp": "2354",
+      "hp": "182"
     },
     "resistant": [
       "ghost"
@@ -23062,11 +23062,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "129",
-      "base-defense": "169",
-      "base-stamina": "496",
-      "max-cp": "2757",
-      "max-hp": "403"
+      "attack": "129",
+      "defense": "169",
+      "stamina": "496",
+      "cp": "2757",
+      "hp": "403"
     },
     "resistant": [
       "ghost"
@@ -23152,11 +23152,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "241",
-      "base-defense": "195",
-      "base-stamina": "207",
-      "max-cp": "3452",
-      "max-hp": "175"
+      "attack": "241",
+      "defense": "195",
+      "stamina": "207",
+      "cp": "3452",
+      "hp": "175"
     },
     "resistant": [
       "electric",
@@ -23234,11 +23234,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "235",
-      "base-defense": "171",
-      "base-stamina": "251",
-      "max-cp": "3473",
-      "max-hp": "210"
+      "attack": "235",
+      "defense": "171",
+      "stamina": "251",
+      "cp": "3473",
+      "hp": "210"
     },
     "resistant": [
       "fire",
@@ -23320,11 +23320,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "180",
-      "base-defense": "235",
-      "base-stamina": "225",
-      "max-cp": "2983",
-      "max-hp": "189"
+      "attack": "180",
+      "defense": "235",
+      "stamina": "225",
+      "cp": "2983",
+      "hp": "189"
     },
     "resistant": [
       "fire",
@@ -23405,11 +23405,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "115",
-      "base-defense": "93",
-      "base-stamina": "137",
-      "max-cp": "1040",
-      "max-hp": "120"
+      "attack": "115",
+      "defense": "93",
+      "stamina": "137",
+      "cp": "1040",
+      "hp": "120"
     },
     "resistant": [
       "electric",
@@ -23506,11 +23506,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "155",
-      "base-defense": "133",
-      "base-stamina": "172",
-      "max-cp": "1766",
-      "max-hp": "147"
+      "attack": "155",
+      "defense": "133",
+      "stamina": "172",
+      "cp": "1766",
+      "hp": "147"
     },
     "resistant": [
       "electric",
@@ -23607,11 +23607,11 @@ export default {
     },
     "spawn-chance": null,
     "stats": {
-      "base-attack": "251",
-      "base-defense": "207",
-      "base-stamina": "225",
-      "max-cp": "3834",
-      "max-hp": "189"
+      "attack": "251",
+      "defense": "207",
+      "stamina": "225",
+      "cp": "3834",
+      "hp": "189"
     },
     "resistant": [
       "psychic",
@@ -23710,11 +23710,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "193",
-      "base-defense": "310",
-      "base-stamina": "235",
-      "max-cp": "3703",
-      "max-hp": "197"
+      "attack": "193",
+      "defense": "310",
+      "stamina": "235",
+      "cp": "3703",
+      "hp": "197"
     },
     "resistant": [
       "grass",
@@ -23797,11 +23797,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "239",
-      "base-defense": "244",
-      "base-stamina": "214",
-      "max-cp": "3863",
-      "max-hp": "180"
+      "attack": "239",
+      "defense": "244",
+      "stamina": "214",
+      "cp": "3863",
+      "hp": "180"
     },
     "resistant": [
       "fighting",
@@ -23886,11 +23886,11 @@ export default {
     },
     "spawn-chance": "0",
     "stats": {
-      "base-attack": "210",
-      "base-defense": "210",
-      "base-stamina": "225",
-      "max-cp": "3265",
-      "max-hp": "189"
+      "attack": "210",
+      "defense": "210",
+      "stamina": "225",
+      "cp": "3265",
+      "hp": "189"
     },
     "resistant": [
       "water",
