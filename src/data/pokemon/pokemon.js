@@ -2,10 +2,10 @@ export default {
   "pokemon": [{
     "num": "001",
     "name": "bulbasaur",
-    "generation": {
-      "num": "generation i",
-      "name": "kanto"
-    },
+    "generation": [
+      "kanto"
+    ],
+
     "about": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
     "size": {

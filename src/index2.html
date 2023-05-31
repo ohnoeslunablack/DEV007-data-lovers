@@ -12,9 +12,9 @@
 <body>
     <header>
         <nav class="filters">
-            <select id="tipo" class="btnControles">
+            <select id="tipo" class="btnControles" >
                 <option value="all">por Tipo</option>
-                <option value="Water">Agua</option>
+                <option value="Water" >Agua</option>
                 <option value="Bug">Bicho</option>
                 <option value="Dragon">Dragón</option>
                 <option value="Electric">Eléctrico</option>
@@ -30,10 +30,10 @@
                 <option value="Poison">Veneno</option>
                 <option value="Flying">Volador</option>
             </select>
-            <select id="habilidad" class="btnControles2">
+            <select id="generacion" class="btnControles2">
                 <option value="all">por Generacion</option>
-                <option value="Water">Agua</option>
-                <option value="Water">Agua</option>
+                <option value="Kanto">Kanto</option>
+                <option value="johto">Johto</option>
             </select>
             <input type="text" placeholder="busca tu Pokemon" class="searchPokemon" />
             <button class="button-search" id="button-search">
@@ -45,14 +45,17 @@
             </button>
         </nav>
     </header>
+
     <div class="contenido" id="contenido">
         <div id="root"></div>
     </div>
+
     <div id="inicio" class="inicio rojo">
         <button class="comenzar" id="comenzar" onclick="window.location.href='index.html';">REGRESA</button>
     </div>
     <script src="main.js" type="module"></script>
 </body>
+
 <div class="mainfooter">
     <footer>
         <p>Elaborado por <a href="https://github.com/MeliDlc" target="_blank">Melissa de la Cruz</a> y <a
