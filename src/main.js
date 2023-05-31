@@ -26,7 +26,7 @@ function mostrarPokemon(pokemonList) {
                 ${pokemon.name}
             </h3>
             <p class="pokemonGeneration">
-                Generación: ${pokemon.generation.num} (${pokemon.generation.name})
+                Generación: ${pokemon.generation}
             </p>
             <div class="stat">
                 <div class="tak">
