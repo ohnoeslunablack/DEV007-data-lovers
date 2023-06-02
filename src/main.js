@@ -1,4 +1,6 @@
+import { filterData, filterGeneration, filterOrdenamiento } from './data.js';
 import data from './data/pokemon/pokemon.js';
+
 
 
 const pokemonData = data.pokemon;
@@ -11,20 +13,20 @@ function mostrarPokemon(pokemonList) {
     const pokemonCardDiv = document.createElement('div');
     pokemonCardDiv.classList.add('pokemonCard'); // Agregar la clase pokemonCard
 
-    // Crea la estructura HTML de la tarjeta de información
+    // Crea la estructura HTML de la tarjeta de información (se queda aqui)
     pokemonCardDiv.innerHTML = `
     <div class="card">
         <div class="card-header">
             <img src="${pokemon.img}" alt="">
         </div>
         <div class="card-body">
+        <h3 class="pokemonName">
+                ${pokemon.name}
+            </h3>
             <div class="type">
                 <span class="pokemonType">Tipo: ${pokemon.type}</span>
                 <span class="pokemonNum">Num: ${pokemon.num}</span>
             </div>
-            <h3 class="pokemonName">
-                ${pokemon.name}
-            </h3>
             <p class="pokemonGeneration">
                 Generación: ${pokemon.generation}
             </p>
@@ -50,7 +52,7 @@ function mostrarPokemon(pokemonList) {
   });
 }
 
-//funcion que llama a los pokemones por medio del boton search, nombre
+//funcion que llama a los pokemones por medio del boton search, nombre (se queda aqui)
 
 function buscarPokemon() {
   const searchInput = document.querySelector('.searchPokemon');
@@ -63,7 +65,8 @@ function buscarPokemon() {
   mostrarPokemon(filteredPokemon);
 }
 
-// Renderizar la data completa al cargar la página
+// Renderizar la data completa al cargar la página (se queda aqui)
+
 function renderizarDataCompleta() {
   mostrarPokemon(pokemonData);
 }
@@ -75,12 +78,6 @@ searchButton.addEventListener('click', buscarPokemon);
 
 
 //array para llamar tipo de pokemon, imprime en consola
-
-const filterData = (data, condition) => {
-  let result = data.pokemon.filter(item => item.type.includes(condition.toLowerCase()));
-  console.log(result)
-  return result;
-};
 
 const seleccionarTipo = document.getElementById("tipo");
 seleccionarTipo.addEventListener('change', () =>{
@@ -96,11 +93,8 @@ seleccionarTipo.addEventListener('change', () =>{
 
 //array para llamar generacion de pokemon, imprime en consola
 
-const filterGeneration = (data, condition) => {
-  let result = data.pokemon.filter(item => item.generation.includes(condition.toLowerCase()));
-  console.log(result)
-  return result;
-};
+
+
 const seleccionarGeneracion= document.getElementById("generacion");
 seleccionarGeneracion.addEventListener('change', () =>{
   let generation = seleccionarGeneracion.options[seleccionarGeneracion.selectedIndex].value;
@@ -112,3 +106,17 @@ seleccionarGeneracion.addEventListener('change', () =>{
     }
 
 });
+
+//array para llamar el ordenamiento
+
+
+const select = document.getElementById("ordenamiento");
+select.addEventListener("change", () => {
+  const seleccionarOrden = select.value;
+  const newData = filterOrdenamiento(data, seleccionarOrden); 
+  mostrarPokemon(newData);
+});
+window.onload = function () {
+  mostrarPokemon(pokemonList);
+};
+
