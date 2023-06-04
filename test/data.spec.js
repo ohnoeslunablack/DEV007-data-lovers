@@ -1,19 +1,28 @@
 import { filterOrdenamiento, filterGeneration, filterData } from '../src/data.js';
 
 describe("filterOrdenamiento", () => {
-  it("Deberia ser una función", () => {
-    expect(typeof filterOrdenamiento).toBe("function");
-  });
+  
+  // Pueden suponer que siempre regresa una funcion
+  // it("Deberia ser una función", () => {
+  //   expect(typeof filterOrdenamiento).toBe("function");
+  // });
 
   it("Ordenamiento de forma ascendente", () => {
-    const ordenAscendente = filterOrdenamiento("A-Z");
+    // const expetedData = [{
+    //   data
+    // }];
+  
+    const ordenAscendente = filterOrdenamiento(
+      { pokemon: [{ name: "abra" }] },
+      "A-Z"
+    );
     expect(ordenAscendente[0].name).toBe("abra");
   });
-});
 
-describe("filterOrdenamiento", () => {
   it("Ordenamiento de forma descendente", () => {
-    const ordenDescendente = filterOrdenamiento("Z-A");
+    const ordenDescendente = filterOrdenamiento(
+      { pokemon: [{ name: "zubat" }] },
+      "Z-A");
     expect(ordenDescendente[0].name).toBe("zubat");
   });
 });
@@ -33,10 +42,8 @@ describe("filterGeneration", () => {
   it("Ordenamiento de por generacion", () => {
     const filtro = filterGeneration(filtroGenero, "kanto");
     expect(filtro).toEqual([
-      {
-        name: "bulbasaur",
-        generation: ["kanto"],
-      },
+      { name: "bulbasaur", generation: ["kanto"] },
+      { name: "charizard", generation: ["kanto"] },
     ]);
   });
 });

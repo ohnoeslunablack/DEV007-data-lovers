@@ -13,7 +13,7 @@ function mostrarPokemon(pokemonList) {
   pokemonList.forEach((pokemon) => {
     const pokemonCardDiv = document.createElement('div');
     pokemonCardDiv.classList.add('pokemonCard'); // Agregar la clase pokemonCard
-
+    
     // Crea la estructura HTML de la tarjeta de información (se queda aqui)
     pokemonCardDiv.innerHTML = `
     <div class="card">
@@ -25,7 +25,7 @@ function mostrarPokemon(pokemonList) {
                 ${pokemon.name}
             </h3>
             <div class="type">
-                <span class="pokemonType">Tipo: ${pokemon.type}</span>
+            <span class="pokemonType">Tipo: ${pokemon.type}</span>
                 <span class="pokemonNum">Num: ${pokemon.num}</span>
             </div>
             <p class="pokemonGeneration">
@@ -52,6 +52,7 @@ function mostrarPokemon(pokemonList) {
     container.appendChild(pokemonCardDiv);
   });
 }
+
 
 //funcion que llama a los pokemones por medio del boton search, nombre (se queda aqui)
 
