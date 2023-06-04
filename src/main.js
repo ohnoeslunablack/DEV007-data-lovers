@@ -4,6 +4,7 @@ import data from './data/pokemon/pokemon.js';
 
 
 const pokemonData = data.pokemon;
+const pokemonList = data.pokemon;
 
 function mostrarPokemon(pokemonList) {
   const container = document.getElementById('contenido');
@@ -80,30 +81,27 @@ searchButton.addEventListener('click', buscarPokemon);
 //array para llamar tipo de pokemon, imprime en consola
 
 const seleccionarTipo = document.getElementById("tipo");
-seleccionarTipo.addEventListener('change', () =>{
-  let type = seleccionarTipo.options[seleccionarTipo.selectedIndex].value;
-  console.log(type)
-   if(type=="All"){
+seleccionarTipo.addEventListener('change', () => {
+  const type = seleccionarTipo.options[seleccionarTipo.selectedIndex].value;
+  if (type === "All") {
     mostrarPokemon(pokemonList)
-    }else{
-      mostrarPokemon(filterData(data, type));
-    }
+  } else {
+    mostrarPokemon(filterData(data, type));
+  }
 
 });
 
 //array para llamar generacion de pokemon, imprime en consola
 
 
-
-const seleccionarGeneracion= document.getElementById("generacion");
-seleccionarGeneracion.addEventListener('change', () =>{
-  let generation = seleccionarGeneracion.options[seleccionarGeneracion.selectedIndex].value;
-  console.log(generation)
-   if(generation=="All"){
+const seleccionarGeneracion = document.getElementById("generacion");
+seleccionarGeneracion.addEventListener('change', () => {
+  const generation = seleccionarGeneracion.options[seleccionarGeneracion.selectedIndex].value;
+  if (generation === "All") {
     mostrarPokemon(pokemonList)
-    }else{
-      mostrarPokemon(filterGeneration(data, generation));
-    }
+  } else {
+    mostrarPokemon(filterGeneration(data, generation));
+  }
 
 });
 
@@ -113,7 +111,7 @@ seleccionarGeneracion.addEventListener('change', () =>{
 const select = document.getElementById("ordenamiento");
 select.addEventListener("change", () => {
   const seleccionarOrden = select.value;
-  const newData = filterOrdenamiento(data, seleccionarOrden); 
+  const newData = filterOrdenamiento(data, seleccionarOrden);
   mostrarPokemon(newData);
 });
 window.onload = function () {
